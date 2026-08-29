@@ -1,0 +1,11 @@
+{
+  "lab": 5,
+  "status": "PASS",
+  "acceptance": "The worktrees use distinct paths and branches, produce separate commits, and integrate with the full test suite passing.",
+  "required_evidence": [
+    "applicable instruction chain",
+    "reviewed diff",
+    "focused tests",
+    "verifier exit code"
+  ]
+}

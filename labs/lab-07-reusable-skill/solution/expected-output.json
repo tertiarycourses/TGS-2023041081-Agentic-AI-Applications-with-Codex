@@ -1,0 +1,11 @@
+{
+  "lab": 7,
+  "status": "PASS",
+  "acceptance": "The skill passes structural checks and its evaluation shows correct trigger and near-miss behavior.",
+  "required_evidence": [
+    "applicable instruction chain",
+    "reviewed diff",
+    "focused tests",
+    "verifier exit code"
+  ]
+}

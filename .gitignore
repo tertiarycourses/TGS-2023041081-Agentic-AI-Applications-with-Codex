@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+courseware/.env
+.claude/
+assessment/
+reference/
+build/
+courseware/archive/
+courseware/assets/
+courseware/technical-anchor-inventory.csv
+courseware/*.pptx
+courseware/*.docx
+courseware/*.pdf
+QA-*.md
+qa/
+renders/

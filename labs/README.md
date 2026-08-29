@@ -1,21 +1,17 @@
-# Labs - Pearson Vue Certified IT Specialist Network Security Training
+# Agentic AI Applications with Codex Labs
 
-Complete the labs in order. Each lab builds on the Contoso Network Security Baseline case study.
+Course code: **TGS-2023041081**
+Version: **v9.0**
 
-## Lab Sequence
+Each lab is an independent folder with its own instructions, starter and solution state, verifier, prompt contract and evidence checklist.
 
-1. [Defense in Depth and Security Principles](lab-01-defense-in-depth-security-principles.md)
-2. [Physical Security, Policies, and Backup Restore](lab-02-physical-security-policies-backup-restore.md)
-3. [Attack Types and Defensive Recognition](lab-03-attack-types-defensive-recognition.md)
-4. [Operating System Hardening and Patch Management](lab-04-operating-system-hardening-patch-management.md)
-5. [Authentication, Permissions, and Administrative Access](lab-05-authentication-permissions-admin-access.md)
-6. [Audit Policies, Log Files, and Encryption](lab-06-audit-policies-log-files-encryption.md)
-7. [Wireless Security and Network Protection Devices](lab-07-wireless-security-network-protection-devices.md)
-8. [Network Isolation and Protocol Security](lab-08-network-isolation-protocol-security.md)
-9. [Email, Browser, and Anti-Malware Protection](lab-09-email-browser-antimalware-protection.md)
-10. [Capstone: Network Security Baseline and Readiness](lab-10-capstone-network-security-baseline-readiness.md)
-
-## Before You Begin
-
-Read [tools.md](tools.md), prepare your learner folder, and follow the safety rules in the learner guide.
-
+- [Lab 01: Repository Reconnaissance and Baseline](lab-01-repository-reconnaissance/README.md)
+- [Lab 02: Prompt-to-Plan Feature Delivery](lab-02-prompt-plan-feature/README.md)
+- [Lab 03: Scoped AGENTS.md Hierarchy](lab-03-agents-hierarchy/README.md)
+- [Lab 04: Sandbox and Approval Experiment](lab-04-sandbox-approval/README.md)
+- [Lab 05: Parallel Worktrees without Collision](lab-05-parallel-worktrees/README.md)
+- [Lab 06: Browser QA with Playwright](lab-06-browser-qa/README.md)
+- [Lab 07: Build and Evaluate a Codex Skill](lab-07-reusable-skill/README.md)
+- [Lab 08: Headless Codex Exec for CI](lab-08-headless-exec/README.md)
+- [Lab 09: Golden-Task Evaluation Harness](lab-09-evaluation-harness/README.md)
+- [Lab 10: Capstone: Governed Codex Adoption](lab-10-capstone-governed-adoption/README.md)

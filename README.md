@@ -1,89 +1,66 @@
-# TGS-2024051414 - Pearson Vue Certified IT Specialist Network Security Training
+# Agentic AI Applications with Codex
 
-Hands-on Pearson VUE Certified IT Specialist Network Security labs covering defense in depth, security principles, physical security, policy controls, attack types, backup and restore, OS hardening, authentication, permissions, audit logs, encryption, wireless security, firewalls, IDS/IPS, SIEM, network isolation, protocol security, email protection, browser security, anti-malware, and certification readiness.
+Build, control and evaluate evidence-backed Codex workflows for practical software and knowledge-work tasks.
 
-## Course Information
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2023041081` |
+| Programme | WSQ |
+| TSC | `AER-TEM-4026-1.1` Artificial Intelligence Application |
+| Duration | 2 days / 16 hours, including 2 hours of assessment |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-agentic-ai-applications-with-codex.html) |
+| Funding | Up to 70% course-fee support is listed on the official course page; eligibility and current terms apply. |
 
-- **Course Code:** TGS-2024051414
-- **Course Title:** Pearson Vue Certified IT Specialist Network Security Training
-- **Course Registration:** [WSQ Pearson Vue Certified IT Specialist Network Security Training](https://www.tertiarycourses.com.sg/wsq-pearson-vue-certified-it-specialist-network-security-training.html)
-- **Certification Reference:** [Pearson VUE IT Specialist Exam Resources](https://www.pearsonvue.com/us/en/it-exam-resources/it-specialist.html)
-- **Network Security Objectives PDF:** [IT Specialist Network Security Exam Objectives](https://www.pearsonvue.com/content/dam/VUE/vue/en/documents/clients/it-specialist/its-od-102-network-security-pearson.pdf)
+## About the course
 
-## Lab Guide
+This course develops a governed approach to Codex rather than treating an agent response as proof of completion. Learners analyse when an agentic application fits a work problem, design a bounded repository harness, apply tools and reusable extensions, and evaluate outcomes through correctness, reliability, efficiency, risk and accountable human decisions.
 
-Start with the detailed learner guide:
+The public lab package uses a small Python TaskBoard project so every change can be inspected, tested and compared with observable acceptance evidence.
 
-- [Learner Guide - Pearson Vue Certified IT Specialist Network Security Training](LG-Pearson-Vue-Certified-IT-Specialist-Network-Security-Training.md)
+## Learning outcomes
+
+By the end of the course, learners will be able to:
+
+1. Analyse agentic AI applications, their strengths, limitations and suitability for a work problem.
+2. Correlate agent-control design with algorithm efficiency and evaluate the resulting process improvement.
+3. Assess methods for evaluating the effectiveness, safety and reliability of Codex-enabled workflows.
+4. Evaluate comparative effectiveness and recommend a governed Codex implementation using observable evidence.
+
+## Topics covered
+
+1. Codex surfaces, agentic loops and applicability
+2. Harness design, context, sandbox, approvals and process efficiency
+3. Tools, skills, MCP, subagents and cloud automation
+4. Evaluation, comparative effectiveness and governed adoption
 
 ## Labs
 
-| Lab | Title | Focus |
-| --- | --- | --- |
-| 01 | [Defense in Depth and Security Principles](labs/lab-01-defense-in-depth-security-principles.md) | CIA, non-repudiation, least privilege, risk, vulnerability |
-| 02 | [Physical Security, Policies, and Backup Restore](labs/lab-02-physical-security-policies-backup-restore.md) | Site security, removable media, controls, backups |
-| 03 | [Attack Types and Defensive Recognition](labs/lab-03-attack-types-defensive-recognition.md) | Malware, ransomware, XSS, SQL injection, brute force, MITM |
-| 04 | [Operating System Hardening and Patch Management](labs/lab-04-operating-system-hardening-patch-management.md) | Hardening, patching, attack surface, UAC, secure DNS updates |
-| 05 | [Authentication, Permissions, and Administrative Access](labs/lab-05-authentication-permissions-admin-access.md) | MFA, password policy, Run As, sudo, file/share permissions |
-| 06 | [Audit Policies, Log Files, and Encryption](labs/lab-06-audit-policies-log-files-encryption.md) | Auditing, log review, BitLocker, certificates, VPN encryption |
-| 07 | [Wireless Security and Network Protection Devices](labs/lab-07-wireless-security-network-protection-devices.md) | WPA, SSID, OOBE, firewalls, IDS, IPS, SIEM |
-| 08 | [Network Isolation and Protocol Security](labs/lab-08-network-isolation-protocol-security.md) | DMZ, VLAN, NAT/PAT, VPN, IPsec, DNSSEC, ports |
-| 09 | [Email, Browser, and Anti-Malware Protection](labs/lab-09-email-browser-antimalware-protection.md) | Antispam, phishing, browser cache, antivirus alerts |
-| 10 | [Capstone: Network Security Baseline and Readiness](labs/lab-10-capstone-network-security-baseline-readiness.md) | End-to-end baseline, recommendations, certification checklist |
+Each lab is an independent folder with a detailed README/PDF, lab-local instructions, bounded prompt, runnable starter and solution state, verifier, expected output and evidence checklist.
 
-## Tools
+1. [Repository Reconnaissance and Baseline](labs/lab-01-repository-reconnaissance/README.md)
+2. [Prompt-to-Plan Feature Delivery](labs/lab-02-prompt-plan-feature/README.md)
+3. [Scoped AGENTS.md Hierarchy](labs/lab-03-agents-hierarchy/README.md)
+4. [Sandbox and Approval Experiment](labs/lab-04-sandbox-approval/README.md)
+5. [Parallel Worktrees without Collision](labs/lab-05-parallel-worktrees/README.md)
+6. [Browser QA with Playwright](labs/lab-06-browser-qa/README.md)
+7. [Build and Evaluate a Codex Skill](labs/lab-07-reusable-skill/README.md)
+8. [Headless Codex Exec for CI](labs/lab-08-headless-exec/README.md)
+9. [Golden-Task Evaluation Harness](labs/lab-09-evaluation-harness/README.md)
+10. [Capstone: Governed Codex Adoption](labs/lab-10-capstone-governed-adoption/README.md)
 
-The labs can be completed with free or built-in tools:
+## Public package
 
-- Windows Security or equivalent endpoint protection
-- Windows Event Viewer or OS log viewer
-- PowerShell, Command Prompt, Terminal, or shell
-- Spreadsheet tool for control and risk worksheets
-- diagrams.net for network security diagrams
-- Browser settings and security headers review
-- Optional home router or lab Wi-Fi settings for observation only
+- [Learner Guide Markdown](LG-Agentic%20AI%20Applications%20with%20Codex.md)
+- [Labs index](labs/README.md)
+- Ten self-contained lab folders with learner-safe runnable assets
 
-See [Lab Tools and Setup](labs/tools.md) for setup guidance.
+Detailed procedures belong in the Learner Guide and individual lab guides. The slide deck is used for mechanism-led explanation and technical discussion.
 
-## Learning Outcomes
+## Distribution boundary
 
-After completing the labs, learners should be able to:
+This public repository contains learner-safe guidance, synthetic data and lab assets only. Assessment papers, answer keys, trainer resources, credentials, `.env` files, source references, build tooling, editable Office files and QA artifacts are intentionally excluded.
 
-- Explain defense in depth, CIA, least privilege, risk, vulnerability, and attack surface.
-- Identify physical, administrative, and technical controls.
-- Recognize common attack types and social engineering patterns.
-- Build OS hardening, patching, authentication, and permission checklists.
-- Explain auditing, logs, non-repudiation, encryption, certificates, and VPN protection.
-- Compare wireless security, firewalls, IDS, IPS, SIEM, and content filtering.
-- Explain network isolation and protocol security concepts.
-- Apply safe email, browser, and anti-malware practices.
-- Prepare for Pearson VUE IT Specialist Network Security exam objectives.
+## Provider
 
-## Repository Structure
-
-```text
-.
-|-- README.md
-|-- LG-Pearson-Vue-Certified-IT-Specialist-Network-Security-Training.md
-`-- labs/
-    |-- README.md
-    |-- tools.md
-    |-- lab-01-defense-in-depth-security-principles.md
-    |-- lab-02-physical-security-policies-backup-restore.md
-    |-- lab-03-attack-types-defensive-recognition.md
-    |-- lab-04-operating-system-hardening-patch-management.md
-    |-- lab-05-authentication-permissions-admin-access.md
-    |-- lab-06-audit-policies-log-files-encryption.md
-    |-- lab-07-wireless-security-network-protection-devices.md
-    |-- lab-08-network-isolation-protocol-security.md
-    |-- lab-09-email-browser-antimalware-protection.md
-    `-- lab-10-capstone-network-security-baseline-readiness.md
-```
-
-## Notes for Learners
-
-- Perform labs only on your own device or instructor-approved lab systems.
-- Do not attack, scan, or test systems without explicit permission.
-- Do not share screenshots that contain private IP addresses, account names, or credentials.
-- Treat every activity as defensive learning and documentation practice.
-
+Tertiary Infotech Academy Pte. Ltd.
+UEN: `201200696W`

@@ -1,0 +1,11 @@
+{
+  "lab": 2,
+  "status": "PASS",
+  "acceptance": "The diff is scoped, the new behavior is tested, all supplied tests pass and the final summary cites evidence.",
+  "required_evidence": [
+    "applicable instruction chain",
+    "reviewed diff",
+    "focused tests",
+    "verifier exit code"
+  ]
+}

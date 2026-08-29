@@ -1,0 +1,11 @@
+{
+  "lab": 8,
+  "status": "PASS",
+  "acceptance": "The wrapper avoids embedded secrets, records structured events and distinguishes success from failure by exit status.",
+  "required_evidence": [
+    "applicable instruction chain",
+    "reviewed diff",
+    "focused tests",
+    "verifier exit code"
+  ]
+}

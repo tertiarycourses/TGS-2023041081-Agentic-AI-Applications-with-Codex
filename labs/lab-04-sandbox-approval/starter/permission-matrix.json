@@ -1,0 +1,14 @@
+{
+  "read_only": [
+    "inspect starter files"
+  ],
+  "workspace_write": [
+    "edit temporary learner copy",
+    "run local tests"
+  ],
+  "approval_required": [
+    "network access",
+    "write outside lab",
+    "destructive action"
+  ]
+}

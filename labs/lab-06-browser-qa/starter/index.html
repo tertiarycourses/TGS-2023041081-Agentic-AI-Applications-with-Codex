@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TaskBoard</title><style>body{font:16px Arial;margin:2rem;max-width:720px}.task{padding:1rem;border:1px solid #ccd6e0;margin:.5rem 0}.high{border-left:8px solid #c93e36}@media(max-width:480px){body{margin:1rem}}</style></head>
+<body><h1>TaskBoard</h1><label>Priority <select id="filter"><option value="all">All</option><option value="high">High</option></select></label>
+<div class="task high" data-priority="high">Review diff</div><div class="task" data-priority="low">Update notes</div>
+<script>filter.onchange=()=>document.querySelectorAll('.task').forEach(x=>x.hidden=filter.value!=='all'&&x.dataset.priority!==filter.value)</script></body></html>

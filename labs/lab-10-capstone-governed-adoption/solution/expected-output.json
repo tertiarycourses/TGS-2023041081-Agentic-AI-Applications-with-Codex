@@ -1,0 +1,11 @@
+{
+  "lab": 10,
+  "status": "PASS",
+  "acceptance": "The solution works, the evidence pack covers correctness, efficiency and risk, and the recommendation states limits, controls, owner and review date.",
+  "required_evidence": [
+    "applicable instruction chain",
+    "reviewed diff",
+    "focused tests",
+    "verifier exit code"
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "filter-high",
+    "expected": [
+      "Review diff"
+    ],
+    "max_seconds": 30
+  },
+  {
+    "id": "preserve-order",
+    "expected": [
+      1,
+      2,
+      3
+    ],
+    "max_seconds": 30
+  },
+  {
+    "id": "invalid-priority",
+    "expected": "rejected",
+    "max_seconds": 30
+  }
+]
