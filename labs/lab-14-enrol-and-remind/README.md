@@ -1,7 +1,7 @@
 # Lab 14 — Enrol the Learners and Automate Reminders
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 4 · about 35 minutes · slides 130–134**  
+**Day 2 · Topic 4 · about 35 minutes · slides 131–135**  
 **Surface:** ChatGPT Work + @Drive + @Gmail → Scheduled  
 **Features:** @Gmail drafts · data checks · scheduled tasks
 

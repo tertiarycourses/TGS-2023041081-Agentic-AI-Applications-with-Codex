@@ -1,7 +1,7 @@
 # Lab 16 — Marketing Know-how as Skills, Then the Flyer
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 5 · about 30 minutes · slides 146–150**  
+**Day 2 · Topic 5 · about 30 minutes · slides 147–151**  
 **Surface:** Chat → Codex ($skill-creator, $imagegen)  
 **Features:** custom marketing skills · $imagegen · proofreading
 

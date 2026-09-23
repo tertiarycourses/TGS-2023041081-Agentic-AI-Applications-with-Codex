@@ -1,7 +1,7 @@
 # Lab 13 — Put the Term on the Calendar
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 4 · about 30 minutes · slides 125–128**  
+**Day 2 · Topic 4 · about 30 minutes · slides 126–129**  
 **Surface:** ChatGPT Work + @Drive + @Calendar  
 **Features:** @Calendar write access · clash detection · approve before write
 

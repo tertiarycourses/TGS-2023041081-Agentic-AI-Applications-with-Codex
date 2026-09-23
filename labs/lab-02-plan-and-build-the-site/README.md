@@ -1,7 +1,7 @@
 # Lab 02 — Plan and Build the Site with /plan
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 1 · about 35 minutes · slides 38–41**  
+**Day 1 · Topic 1 · about 35 minutes · slides 39–42**  
 **Surface:** Codex  
 **Features:** Add a folder · GPT-6 Sol · /plan · the 7-step workflow
 

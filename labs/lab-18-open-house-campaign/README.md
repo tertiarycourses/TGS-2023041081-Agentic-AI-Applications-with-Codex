@@ -1,7 +1,7 @@
 # Lab 18 — Lead Magnet, Newsletter and the Open-House Campaign
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 5 · about 40 minutes · slides 160–164**  
+**Day 2 · Topic 5 · about 40 minutes · slides 161–165**  
 **Surface:** Codex (skills.sh) → ChatGPT Work (@Gmail, analysis)  
 **Features:** lead-magnets · seo-audit · newsletter-generation · consent · UTM
 

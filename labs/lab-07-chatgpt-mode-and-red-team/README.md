@@ -1,7 +1,7 @@
 # Lab 07 — Add ChatGPT Mode, Then Try to Break It
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 2 · about 25 minutes · slides 76–79**  
+**Day 1 · Topic 2 · about 25 minutes · slides 77–80**  
 **Surface:** Codex  
 **Features:** OpenAI Responses API · gpt-6-luna · grounded prompt · prompt injection
 

@@ -1,7 +1,7 @@
 # Lab 01 — Validate the Idea with Chat and Work
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 1 · about 30 minutes · slides 27–33**  
+**Day 1 · Topic 1 · about 30 minutes · slides 28–34**  
 **Surface:** Chat → ChatGPT Work → @Sites  
 **Features:** Chat brainstorm · Work research with plan review · @Sites HTML report
 
