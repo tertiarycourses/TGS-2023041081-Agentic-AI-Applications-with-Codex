@@ -1,8 +1,0 @@
-{
-  "must_trigger": [
-    "Triage this failing Python unittest"
-  ],
-  "must_not_trigger": [
-    "Write a new JavaScript tutorial"
-  ]
-}

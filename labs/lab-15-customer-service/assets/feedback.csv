@@ -1,0 +1,61 @@
+response_id,course_code,intake,overall_1to5,instructor_1to5,value_1to5,would_recommend,comment
+F001,BAK-103,2026-10-10,4,4,4,yes,Loved taking my loaves home
+F002,BAK-107,2026-10-06,5,5,5,yes,"Small class, lots of attention"
+F003,CUL-201,2026-10-07,3,3,3,no,Too rushed in the last session
+F004,BAK-108,2026-10-11,5,5,5,yes,Chef explained everything clearly
+F005,BAK-105,2026-10-08,4,4,4,yes,Great value for the ingredients
+F006,CUL-205,2026-10-06,5,5,5,yes,Loved taking my loaves home
+F007,CUL-201,2026-10-07,5,5,4,yes,"Small class, lots of attention"
+F008,CUL-202,2026-10-08,5,5,5,yes,Chef explained everything clearly
+F009,BAK-102,2026-10-11,5,5,5,yes,Would sign up again
+F010,BAK-107,2026-10-06,3,3,3,no,Too rushed in the last session
+F011,CUL-207,2026-10-11,4,4,3,yes,Great value for the ingredients
+F012,CUL-210,2026-10-10,4,5,4,yes,Would sign up again
+F013,CUL-201,2026-10-07,4,5,4,yes,Loved taking my loaves home
+F014,CUL-205,2026-10-06,4,4,4,yes,Chef explained everything clearly
+F015,CUL-206,2026-10-07,2,2,1,no,Wanted printed recipes
+F016,CUL-208,2026-10-11,4,5,3,yes,Loved taking my loaves home
+F017,CUL-208,2026-10-11,5,5,5,yes,Loved taking my loaves home
+F018,CUL-210,2026-10-10,3,3,2,no,Wanted printed recipes
+F019,BAK-107,2026-10-06,5,5,5,yes,Great value for the ingredients
+F020,CUL-210,2026-10-10,5,5,4,yes,Great value for the ingredients
+F021,BAK-104,2026-10-07,5,5,4,yes,"Small class, lots of attention"
+F022,BAK-104,2026-10-07,5,5,5,yes,Great value for the ingredients
+F023,BAK-109,2026-10-09,3,3,2,no,Wanted printed recipes
+F024,CUL-207,2026-10-11,5,5,5,yes,"Small class, lots of attention"
+F025,CUL-205,2026-10-06,5,5,5,yes,"Small class, lots of attention"
+F026,BAK-106,2026-10-10,5,5,4,yes,Loved taking my loaves home
+F027,CUL-205,2026-10-06,5,5,5,yes,Would sign up again
+F028,BAK-106,2026-10-10,3,3,3,no,Parking was hard to find
+F029,BAK-107,2026-10-06,3,3,3,no,Room was too warm for chocolate work
+F030,BAK-101,2026-10-10,5,5,5,yes,Would sign up again
+F031,CUL-204,2026-10-05,3,4,2,no,Parking was hard to find
+F032,CUL-204,2026-10-05,5,5,5,yes,Chef explained everything clearly
+F033,BAK-103,2026-10-10,3,3,3,no,Started 15 minutes late
+F034,BAK-108,2026-10-11,5,5,5,yes,Would sign up again
+F035,CUL-204,2026-10-05,5,5,4,yes,Loved taking my loaves home
+F036,BAK-107,2026-10-06,4,4,4,yes,Great value for the ingredients
+F037,CUL-204,2026-10-05,4,4,3,yes,Would sign up again
+F038,BAK-104,2026-10-07,5,5,5,yes,Chef explained everything clearly
+F039,CUL-203,2026-10-10,5,5,5,yes,Chef explained everything clearly
+F040,BAK-106,2026-10-10,3,4,2,no,Parking was hard to find
+F041,BAK-110,2026-10-10,4,4,4,yes,"Small class, lots of attention"
+F042,CUL-206,2026-10-07,4,4,4,yes,Chef explained everything clearly
+F043,BAK-106,2026-10-10,5,5,4,yes,Loved taking my loaves home
+F044,BAK-103,2026-10-10,5,5,5,yes,Chef explained everything clearly
+F045,CUL-206,2026-10-07,5,5,5,yes,Great value for the ingredients
+F046,BAK-109,2026-10-09,4,4,4,yes,Would sign up again
+F047,CUL-202,2026-10-08,2,3,2,no,Started 15 minutes late
+F048,BAK-103,2026-10-10,4,4,4,yes,Loved taking my loaves home
+F049,BAK-109,2026-10-09,2,3,2,no,Room was too warm for chocolate work
+F050,CUL-207,2026-10-11,2,2,2,no,Too rushed in the last session
+F051,BAK-106,2026-10-10,3,3,3,no,Too rushed in the last session
+F052,CUL-206,2026-10-07,4,4,4,yes,"Small class, lots of attention"
+F053,CUL-210,2026-10-10,3,3,2,no,Too rushed in the last session
+F054,BAK-107,2026-10-06,4,4,3,yes,Would sign up again
+F055,CUL-204,2026-10-05,5,5,5,yes,Great value for the ingredients
+F056,CUL-204,2026-10-05,5,5,4,yes,Great value for the ingredients
+F057,BAK-106,2026-10-10,2,2,2,no,Parking was hard to find
+F058,BAK-106,2026-10-10,4,4,3,yes,Loved taking my loaves home
+F059,BAK-106,2026-10-10,4,4,4,yes,Would sign up again
+F060,BAK-104,2026-10-07,2,2,2,no,Started 15 minutes late

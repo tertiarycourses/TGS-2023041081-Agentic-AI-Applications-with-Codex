@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+!.env.example
+signups-*.csv
+.DS_Store

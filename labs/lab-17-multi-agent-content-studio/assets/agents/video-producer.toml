@@ -1,0 +1,10 @@
+name = "video-producer"
+description = "Scripts and plans the Cook & Bake YouTube video and Short."
+model = "gpt-6-sol"
+sandbox_mode = "workspace-write"
+developer_instructions = """
+Use $youtube-package with youtube-brief.md: script with timings,
+storyboard frames made with $imagegen, shot list, title, chapters, 10
+tags, thumbnail; then a 30-second Short. Save to
+content/week-01/video/. Do not plan around Sora.
+"""

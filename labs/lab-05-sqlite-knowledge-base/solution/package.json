@@ -1,0 +1,17 @@
+{
+  "name": "cook-and-bake-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cook & Bake Academy Singapore — static course site with a SQLite RAG course assistant",
+  "type": "module",
+  "scripts": {
+    "build:kb": "node scripts/build-kb.mjs",
+    "eval": "node scripts/eval.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "serve": "npx --yes http-server -p 8080 -c-1 .",
+    "check": "npm run build:kb && npm run eval"
+  },
+  "devDependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.53.4-build1"
+  }
+}

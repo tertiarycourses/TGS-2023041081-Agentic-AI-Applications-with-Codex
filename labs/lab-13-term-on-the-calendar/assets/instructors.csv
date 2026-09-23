@@ -1,0 +1,8 @@
+instructor,department,teaches,available_days,email,rate_per_session_sgd
+Chef Aurelie Martin,Bakery,BAK-102;BAK-109;BAK-103,Sat;Sun;Fri,YOUR.NAME+aurelie@gmail.com,220
+Chef Daniel Koh,Bakery,BAK-101;BAK-107;BAK-110,Sat;Tue,YOUR.NAME+daniel@gmail.com,220
+Chef Mei Ling Tan,Bakery,BAK-104;BAK-105;BAK-106;BAK-108,Wed;Thu;Sat;Sun,YOUR.NAME+meiling@gmail.com,220
+Chef Marco Rossi,Cooking,CUL-201;CUL-204,Mon;Wed,YOUR.NAME+marco@gmail.com,240
+Chef Siriporn Chai,Cooking,CUL-202;CUL-205,Tue;Thu,YOUR.NAME+siriporn@gmail.com,240
+Chef Kenji Watanabe,Cooking,CUL-203;CUL-209,Sat,YOUR.NAME+kenji@gmail.com,240
+Chef Anjali Rao,Cooking,CUL-206;CUL-207;CUL-208;CUL-210,Wed;Sat;Sun,YOUR.NAME+anjali@gmail.com,240

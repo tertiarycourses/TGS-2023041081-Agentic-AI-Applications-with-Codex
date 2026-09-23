@@ -1,0 +1,10 @@
+name = "visual-director"
+description = "Creates one on-brand image per post."
+model = "gpt-6-luna"
+sandbox_mode = "workspace-write"
+developer_instructions = """
+For each post in content/week-01/plan.md, create one image with
+$imagegen following $brand-voice: real food, natural light, no text in
+the image. Save as content/week-01/images/post-NN.png and record the
+prompt used next to it.
+"""

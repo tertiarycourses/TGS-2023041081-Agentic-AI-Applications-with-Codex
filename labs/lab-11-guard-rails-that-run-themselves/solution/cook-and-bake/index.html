@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cook &amp; Bake Academy Singapore — Hands-on cooking and baking courses</title>
+  <meta name="description" content="20 hands-on cooking and baking courses in Singapore, taught by working chefs in classes of 12. Sign up online or ask our course assistant.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%A5%90%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="#main">Cook <span>&amp;</span> Bake</a>
+    <nav aria-label="Main">
+      <a href="#courses">Courses</a>
+      <a href="#campuses">Campuses</a>
+      <a href="#faq">FAQ</a>
+      <button class="btn btn--small" type="button" data-open-chat>Ask a question</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <p class="eyebrow">Singapore · two campuses · classes of 12</p>
+        <h1 id="hero-title">Learn to cook and bake with working chefs</h1>
+        <p class="lede">20 hands-on courses, from a 3-hour knife-skills workshop to 8 weeks of French pastry. Everything you make, you take home.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#courses">Browse courses</a>
+          <button class="btn btn--ghost" type="button" data-open-chat>Ask our course assistant</button>
+        </div>
+        <ul class="hero__facts" aria-label="Why Cook &amp; Bake">
+          <li><strong>20</strong> courses</li>
+          <li><strong>12</strong> per class</li>
+          <li><strong>2</strong> campuses</li>
+        </ul>
+      </div>
+      <div class="hero__collage" aria-hidden="true">
+        <img class="hero__img hero__img--main" src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="" loading="eager" width="900" height="1100">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=600&amp;q=70" alt="" loading="lazy" width="600" height="600">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&amp;fit=crop&amp;w=600&amp;q=70" alt="" loading="lazy" width="600" height="600">
+      </div>
+    </section>
+
+    <section id="courses" aria-labelledby="courses-title">
+      <div class="section-head">
+        <h2 id="courses-title">Courses</h2>
+        <div class="filters" role="group" aria-label="Filter courses">
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter="Bakery" aria-pressed="false">Bakery</button>
+          <button class="chip" type="button" data-filter="Cooking" aria-pressed="false">Cooking</button>
+        </div>
+        <label class="search">
+          <span class="sr-only">Search courses</span>
+          <input id="course-search" type="search" placeholder="Search e.g. sourdough, vegan, beginner">
+        </label>
+      </div>
+      <p id="course-count" class="muted" aria-live="polite"></p>
+      <div id="course-grid" class="grid"></div>
+    </section>
+
+    <section id="campuses" aria-labelledby="campuses-title">
+      <h2 id="campuses-title">Our campuses</h2>
+      <div class="two">
+        <article class="panel">
+          <h3>Orchard Road Bakehouse</h3>
+          <p>All Bakery courses. Two deck ovens, 12 marble benches, a proofing cabinet and a tempering station.</p>
+          <p class="muted">5 minutes from Somerset MRT · paid parking in the building</p>
+        </article>
+        <article class="panel">
+          <h3>Bukit Timah Culinary Campus</h3>
+          <p>All Cooking courses. Twelve induction stations, wok burners, a charcoal grill deck and a sushi counter.</p>
+          <p class="muted">8 minutes from Beauty World MRT · free parking after 7pm</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Frequently asked questions</h2>
+      <div id="faq-list"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Cook &amp; Bake Academy Singapore (fictitious training business) · +65 6888 1234 · enrol@cookbakeacademy.sg</p>
+    <p class="muted"><a href="admin.html">Staff: sign-up export</a></p>
+  </footer>
+
+  <!-- Sign-up dialog: one form, prefilled per course -->
+  <dialog id="signup" aria-labelledby="signup-title">
+    <form id="signup-form" method="dialog" novalidate>
+      <h2 id="signup-title">Sign up</h2>
+      <p id="signup-course" class="muted"></p>
+      <input type="hidden" name="course_code">
+      <input type="hidden" name="course_title">
+
+      <label>Intake
+        <select name="intake" required></select>
+      </label>
+      <label>Full name
+        <input name="full_name" autocomplete="name" required>
+      </label>
+      <label>Email
+        <input name="email" type="email" autocomplete="email" required>
+      </label>
+      <label>Mobile (Singapore)
+        <input name="mobile" type="tel" autocomplete="tel" placeholder="+65 9123 4567" required>
+      </label>
+      <label>Cooking or baking experience
+        <select name="experience">
+          <option>None</option><option>Some</option><option>Confident</option>
+        </select>
+      </label>
+      <label>Allergies or dietary needs <span class="muted">(optional)</span>
+        <input name="allergies">
+      </label>
+      <p id="allergy-warning" class="warn" hidden></p>
+      <label class="check">
+        <input type="checkbox" name="consent" required>
+        I agree that Cook &amp; Bake may use these details to process my sign-up.
+      </label>
+      <label class="check">
+        <input type="checkbox" name="marketing_opt_in">
+        Send me the monthly newsletter (optional — you can unsubscribe any time).
+      </label>
+      <p class="error" id="signup-error" role="alert"></p>
+      <div class="dialog__actions">
+        <button class="btn btn--ghost" type="button" data-close>Cancel</button>
+        <button class="btn" type="submit">Submit sign-up</button>
+      </div>
+    </form>
+    <div id="signup-done" hidden>
+      <h2>You're on the list</h2>
+      <p>Reference <strong id="signup-ref"></strong>. We'll email payment details within one working day. Your seat is confirmed once the fee is paid.</p>
+      <p><a id="signup-mailto" href="#">Email a copy of this sign-up to the academy</a></p>
+      <button class="btn" type="button" data-close>Done</button>
+    </div>
+  </dialog>
+
+  <!-- Course assistant: SQLite RAG in the browser -->
+  <section id="chat" class="chat" aria-label="Course assistant" hidden>
+    <header class="chat__head">
+      <strong>Course assistant</strong>
+      <span id="chat-mode" class="badge">Search mode</span>
+      <button type="button" class="icon" id="chat-settings-btn" aria-label="Assistant settings">⚙</button>
+      <button type="button" class="icon" data-close-chat aria-label="Close assistant">✕</button>
+    </header>
+    <div id="chat-settings" class="chat__settings" hidden>
+      <p><strong>ChatGPT mode</strong> writes answers with an OpenAI model, grounded only in the retrieved course documents. Paste your own API key — it stays in this browser tab (sessionStorage) and is sent only to api.openai.com. Never put a key in the site's code.</p>
+      <label>OpenAI API key <input id="chat-key" type="password" autocomplete="off" placeholder="sk-..."></label>
+      <label>Model <input id="chat-model" value="gpt-6-luna"></label>
+      <div class="dialog__actions">
+        <button type="button" class="btn btn--ghost" id="chat-key-clear">Use search mode</button>
+        <button type="button" class="btn" id="chat-key-save">Use ChatGPT mode</button>
+      </div>
+    </div>
+    <div id="chat-log" class="chat__log" aria-live="polite"></div>
+    <form id="chat-form" class="chat__form">
+      <label class="sr-only" for="chat-input">Ask about courses, fees, schedules or policies</label>
+      <input id="chat-input" autocomplete="off" placeholder="e.g. Is the macaron class nut-free?" maxlength="300">
+      <button class="btn btn--small" type="submit">Send</button>
+    </form>
+  </section>
+
+  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/chat.js"></script>
+</body>
+</html>

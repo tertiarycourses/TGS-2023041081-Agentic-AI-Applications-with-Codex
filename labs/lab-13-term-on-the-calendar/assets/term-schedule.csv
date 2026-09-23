@@ -1,0 +1,21 @@
+course_code,course_title,campus,start_date,weekday,start_time,duration_hours,weeks,instructor
+BAK-101,Artisan Sourdough Bread Baking,Orchard Road,2026-10-10,Saturday,9:30am,3,4,Chef Daniel Koh
+BAK-102,French Pastry & Viennoiserie,Orchard Road,2026-10-11,Sunday,9:30am,4,8,Chef Aurelie Martin
+BAK-103,Wedding Cake Design & Decoration,Orchard Road,2026-10-10,Saturday,2:00pm,4,6,Chef Aurelie Martin
+BAK-104,Macaron Masterclass,Orchard Road,2026-10-07,Wednesday,7:00pm,3,2,Chef Mei Ling Tan
+BAK-105,Chocolate & Confectionery Making,Orchard Road,2026-10-08,Thursday,7:00pm,3,4,Chef Mei Ling Tan
+BAK-106,Cupcake & Cake Pops Workshop,Orchard Road,2026-10-10,Saturday,2:00pm,3,1,Chef Mei Ling Tan
+BAK-107,Bread Making Fundamentals,Orchard Road,2026-10-06,Tuesday,7:00pm,3,3,Chef Daniel Koh
+BAK-108,Cookie & Biscuit Baking,Orchard Road,2026-10-11,Sunday,2:00pm,3,1,Chef Mei Ling Tan
+BAK-109,Pie & Tart Specialist,Orchard Road,2026-10-09,Friday,7:00pm,3,3,Chef Aurelie Martin
+BAK-110,Korean & Asian Bakery,Orchard Road,2026-10-10,Saturday,9:30am,3,4,Chef Daniel Koh
+CUL-201,Italian Cuisine Mastery,Bukit Timah,2026-10-07,Wednesday,7:00pm,3,6,Chef Marco Rossi
+CUL-202,Thai Street Food Cooking,Bukit Timah,2026-10-08,Thursday,7:00pm,3,3,Chef Siriporn Chai
+CUL-203,Japanese Sushi & Sashimi,Bukit Timah,2026-10-10,Saturday,2:00pm,3,4,Chef Kenji Watanabe
+CUL-204,French Culinary Foundations,Bukit Timah,2026-10-05,Monday,7:00pm,3,8,Chef Marco Rossi
+CUL-205,Chinese Wok Cooking,Bukit Timah,2026-10-06,Tuesday,7:00pm,3,3,Chef Siriporn Chai
+CUL-206,Indian Curry & Spices,Bukit Timah,2026-10-07,Wednesday,7:00pm,3,3,Chef Anjali Rao
+CUL-207,Healthy Meal Prep & Nutrition,Bukit Timah,2026-10-11,Sunday,10:00am,3,2,Chef Anjali Rao
+CUL-208,Vegetarian & Vegan Cuisine,Bukit Timah,2026-10-11,Sunday,2:00pm,3,3,Chef Anjali Rao
+CUL-209,Grilling & BBQ Mastery,Bukit Timah,2026-10-10,Saturday,5:00pm,3,2,Chef Kenji Watanabe
+CUL-210,Knife Skills & Kitchen Essentials,Bukit Timah,2026-10-10,Saturday,10:00am,3,1,Chef Anjali Rao

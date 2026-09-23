@@ -3,6 +3,7 @@
 .env.*
 courseware/.env
 .claude/
+/.codex/
 assessment/
 reference/
 build/
@@ -15,3 +16,6 @@ courseware/*.pdf
 QA-*.md
 qa/
 renders/
+
+# Superseded versions live in courseware/archive/ locally and are never pushed
+/CLAUDE.md
