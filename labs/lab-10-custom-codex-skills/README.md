@@ -89,7 +89,7 @@ $kb-update and $course-brochure skills, and a new course live
 
 ## Next
 
-Lab 11 — Guard Rails That Run Themselves. Keep what you built — the next lab starts from it.
+Lab 11 — A Workshop Popup and a Hook That Checks Every Edit. Keep what you built — the next lab starts from it.
 
 ## Safety
 

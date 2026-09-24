@@ -37,7 +37,7 @@ it resolves to your own inbox.
 | 08 | [QA the Whole Site with @Computer Use](lab-08-qa-with-computer-use/README.md) | 1 | Codex + Computer Use | 25 min |
 | 09 | [Install Community Skills from skills.sh](lab-09-skills-from-skills-sh/README.md) | 1 | Codex | 25 min |
 | 10 | [Create Custom Codex Skills](lab-10-custom-codex-skills/README.md) | 1 | Codex | 25 min |
-| 11 | [Guard Rails That Run Themselves](lab-11-guard-rails-that-run-themselves/README.md) | 1 | Codex → GitHub Actions → Scheduled | 35 min |
+| 11 | [A Workshop Popup and a Hook That Checks Every Edit](lab-11-workshop-popup-and-a-hook/README.md) | 1 | Codex | 35 min |
 | 12 | [Price the Courses and Find Break-even](lab-12-price-the-courses/README.md) | 2 | ChatGPT Work + @Drive → Chat | 35 min |
 | 13 | [Put the Term on the Calendar](lab-13-term-on-the-calendar/README.md) | 2 | ChatGPT Work + @Drive + @Calendar | 30 min |
 | 14 | [Enrol the Learners and Automate Reminders](lab-14-enrol-and-remind/README.md) | 2 | ChatGPT Work + @Drive + @Gmail → Scheduled | 35 min |
