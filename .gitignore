@@ -10,12 +10,10 @@ build/
 courseware/archive/
 courseware/assets/
 courseware/technical-anchor-inventory.csv
-courseware/*.pptx
-courseware/*.docx
-courseware/*.pdf
 QA-*.md
 qa/
 renders/
 
-# Superseded versions live in courseware/archive/ locally and are never pushed
+# Only the current PPT, LG and LP are published; superseded versions live in
+# courseware/archive/ locally and are never pushed
 /CLAUDE.md

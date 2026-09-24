@@ -66,6 +66,10 @@ Each lab has its own folder with the scenario and context, a step-by-step README
 
 ## Public package
 
+- **Courseware v12.1** in [courseware/](courseware/):
+  - [Slide deck (PDF)](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.1.pdf) · [PPTX](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.1.pptx)
+  - [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.1.pdf) · [DOCX](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.1.docx)
+  - [Lesson Plan (PDF)](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.1.pdf) · [DOCX](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.1.docx)
 - [Learner Guide (Markdown, v12.1)](LG-Agentic%20AI%20Applications%20with%20Codex-v12.1.md) — concepts and the full step-by-step procedure for every lab
 - [Scenario](labs/SCENARIO.md) and [labs index](labs/README.md)
 - 18 self-contained lab folders; Lab 11's solution holds the complete verified Cook & Bake site
@@ -74,7 +78,7 @@ You need the ChatGPT desktop app ([download](https://chatgpt.com/download/)) wit
 
 ## Distribution boundary
 
-This public repository contains learner-safe guidance, synthetic data and lab assets only. Assessment papers, answer keys, trainer slides, editable Office files, source references, build tooling, archived versions, credentials, `.env` files and QA artifacts are intentionally excluded. The API keys in Lab 11 (`sk-proj-TEST…`) are deliberate fakes used to prove the secrets hook works.
+This public repository contains the courseware, learner-safe guidance, synthetic data and lab assets. Only the current courseware version is published. Assessment papers, answer keys, source references, build tooling, archived versions, credentials, `.env` files and QA artifacts are intentionally excluded. The API keys in Lab 11 (`sk-proj-TEST…`) are deliberate fakes used to prove the secrets hook works.
 
 ## Provider
 
