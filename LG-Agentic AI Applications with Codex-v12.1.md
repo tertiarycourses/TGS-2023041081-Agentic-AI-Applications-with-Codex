@@ -99,7 +99,7 @@ Tip: Day 2 assessment: Written Assessment 4:00–5:00 PM, Practical Performance 
 
 ## Topic 1 — Fundamentals: Chat, Work and Codex
 
-Slides 17–56. In this topic you will:
+Slides 17–57. In this topic you will:
 
 - How AI engineering got here, and why the harness matters
 - OpenAI's products, the GPT-6 models and the desktop app
@@ -120,21 +120,32 @@ Years show when each practice took hold; the names came later. Sources: Axios (F
 
 #### What is Harness Engineering?
 
-OpenAI's term (Feb 2026): the harness is everything around the agent that lets it do reliable work.
+If the model is the brain, the harness is the body — the operating system that lets it act, remember and stay safe.
 
-- **What a harness is** — Repository structure, project instructions, tools, CI, linters and feedback loops — the environment, not the model.
-- **OpenAI's evidence** — In a five-month internal project, Codex agents wrote the code for a product of about a million lines; engineers designed the harness.
-- **Why it matters to you** — Chat, Work and Codex share the same models. What you configure is the harness: AGENTS.md, skills, hooks, tests.
+**The Brain — GPT-6** (Astra · Sol · Luna): Reasons and decides the next step. The same brain powers Chat, Work and Codex.
+
+**The harness — the body / operating system:**
+
+- **Agent loop** — Context → plan → action → verify → repeat, until the goal is met.
+- **Context & memory** — AGENTS.md via /init, memories, /compact when the window fills.
+- **Tools & plugins** — Shell, file edits, web search; plugins such as GitHub, Gmail and @Computer Use.
+- **Skills** — Made with $skill-creator: SKILL.md folders, loaded on demand.
+- **Permissions & sandbox** — read-only · workspace-write · full access, plus approvals (/permissions).
+- **Hooks** — Scripts fired by events — e.g. PreToolUse blocks a leaked API key.
+- **Subagents** — Custom agents in .codex/agents/*.toml, each in its own thread.
+- **Verification** — Tests, CI, /review and browser checks — proof, not promises.
+
+OpenAI (Feb 2026): in five months Codex agents wrote a product of about a million lines — engineers designed the harness, not the code.
 
 #### The Agent Loop
 
-At the heart of the harness. As OpenAI describes the Codex agent loop: it repeats until the model answers instead of calling a tool.
+The loop at the heart of every harness. OpenAI describes Codex the same way: call a tool, feed the result back, repeat until it can answer.
 
-1. **Input** — Your prompt, plus instructions like AGENTS.md and the context gathered so far.
-1. **Model** — Decides: answer now, or call a tool.
-1. **Tool call** — Read a file, run a command, search, use a plugin.
-1. **Result** — The output goes back into the context.
-1. **Repeat or answer** — Loop again — or finish with a message to you.
+1. **Context** — Reads your prompt, AGENTS.md, the files and search results it needs to understand the task.
+1. **Plan** — Decides the next step. For bigger jobs, /plan drafts the approach for you to approve first.
+1. **Action** — Calls a tool: edits files, runs a command, uses a plugin such as @Computer Use.
+1. **Verify** — Runs the tests, a linter or a browser check. The result goes back into the context.
+1. **Repeat** — Loops until the goal is met — then answers with what changed and how it was checked.
 
 #### OpenAI Products: Chat, Work and Codex
 
@@ -154,6 +165,23 @@ Three tiers. Pick the cheapest that does the job well. API ids: gpt-6-sol, gpt-6
 
 #### Download the ChatGPT Desktop App
 
+#### What is a Plugin?
+
+A plugin is a connected tool or app — mostly from third parties like GitHub and Google. Install once, call it with @.
+
+**The Agent — ChatGPT** (Chat · Work · Codex): Calls a plugin when the task needs data or an action outside the chat.
+
+**Plugins — connected tools and apps:**
+
+- **GitHub** — Read repositories, issues and pull requests; review code.
+- **Gmail** — Search and read mail; draft replies for you to review and send.
+- **Google Drive** — Find and read your Docs, Sheets and files.
+- **Google Calendar** — Read your schedule and add events.
+- **Computer Use** — OpenAI's own: operates apps on screen by clicking and typing.
+- **Many more** — Browse the Plugin directory — Slack, Notion and other apps, many built on MCP.
+
+Plugin = the tool, you = the permission. It acts only with the access you grant. @Sites is built in — not a plugin.
+
 #### How to Install a Plugin
 
 A plugin connects ChatGPT and Codex to a tool. Install once; call it with @ in any new chat. (@Sites is built in — no install.)
@@ -166,14 +194,14 @@ A plugin connects ChatGPT and Codex to a tool. Install once; call it with @ in a
 
 #### Install the Plugins We Use
 
-Install these five now, so every lab later just works. Grant only the access each lab needs.
+Install these five now so every lab just works. Use your personal Google account, never an employer's.
 
 - **@GitHub** — Repos, pull requests, issues and CI. Labs 4 and 11 — publish and review.
 - **@Computer Use** — Your desktop and browser. Lab 8. On macOS also grant Screen Recording and Accessibility, then restart.
 - **@Gmail** — Read mail and create drafts. Labs 14, 15, 18 — drafts only, to your own address.
 - **@Google Drive** — Docs, Sheets, Slides and files. Labs 12–18 read their data from Drive.
 - **@Google Calendar** — Create and read events. Lab 13 — on a calendar you create for the course.
-- **Check the account** — Connect your personal Google account, never an employer's. A wrong account is the most common Day 2 problem.
+- **@Sites · built in** — Nothing to install. Publishes the Lab 1 report and the Lab 4 site; keep access at Only those invited.
 
 #### How ChatGPT Work Researches
 
@@ -201,7 +229,7 @@ Sites turns work into a hosted page — static or full-stack.
 
 **You'll build:** A private HTML market report on Sites, and market-brief.md for Codex
 
-**Surface:** Chat → ChatGPT Work → @Sites  ·  **Time:** 30 min  ·  **Slides:** 28–34
+**Surface:** Chat → ChatGPT Work → @Sites  ·  **Time:** 30 min  ·  **Slides:** 29–35
 
 **Lab folder:** labs/lab-01-validate-the-idea/ — assets: business-idea.md, courses.json, report-outline.md
 
@@ -317,7 +345,7 @@ The reference build — yours will differ in the details, not the function.
 
 **You'll build:** A running site: hero with photos, 20 course cards, filters, search, campuses
 
-**Surface:** Codex  ·  **Time:** 35 min  ·  **Slides:** 39–42
+**Surface:** Codex  ·  **Time:** 35 min  ·  **Slides:** 40–43
 
 **Lab folder:** labs/lab-02-plan-and-build-the-site/ — assets: courses.json, brand.md, market-brief-sample.md, hero-images.md
 
@@ -413,7 +441,7 @@ One shared dialog, prefilled with the course the visitor chose.
 
 **You'll build:** AGENTS.md, a validated sign-up form on every card, and a staff CSV export
 
-**Surface:** Codex  ·  **Time:** 30 min  ·  **Slides:** 46–49
+**Surface:** Codex  ·  **Time:** 30 min  ·  **Slides:** 47–50
 
 **Lab folder:** labs/lab-03-rules-and-signup-forms/ — assets: AGENTS.template.md, signup-spec.md, signups-format.csv
 
@@ -486,7 +514,7 @@ The static build runs on both. Choose by audience and backend.
 
 **You'll build:** A public GitHub Pages site for customers and a private Sites copy for investors
 
-**Surface:** Codex → GitHub Pages → @Sites  ·  **Time:** 25 min  ·  **Slides:** 51–55
+**Surface:** Codex → GitHub Pages → @Sites  ·  **Time:** 25 min  ·  **Slides:** 52–56
 
 **Lab folder:** labs/lab-04-publish-the-site/ — assets: pages-basic.yml, publish-checklist.md
 
@@ -540,7 +568,7 @@ The idea is validated and the site is live and taking sign-ups. But visitors sti
 
 ## Topic 2 — Tools and the SQLite RAG Assistant
 
-Slides 57–86. In this topic you will:
+Slides 58–87. In this topic you will:
 
 - Codex commands, /goal and tools
 - RAG: answering from your own documents
@@ -625,7 +653,7 @@ Build once with Node; answer in the visitor's browser.
 
 **You'll build:** data/academy.db — 140 searchable chunks and a courses table
 
-**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 64–67
+**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 65–68
 
 **Lab folder:** labs/lab-05-sqlite-knowledge-base/ — assets: kb/, brochures-pdf/, kb-AGENTS.md
 
@@ -692,7 +720,7 @@ Tip: The reference build scores 30/30 in under 1 ms per question.
 
 **You'll build:** A working course assistant that passes 30/30 golden questions
 
-**Surface:** Codex  ·  **Time:** 35 min  ·  **Slides:** 69–73
+**Surface:** Codex  ·  **Time:** 35 min  ·  **Slides:** 70–74
 
 **Lab folder:** labs/lab-06-course-assistant-and-goal/ — assets: golden-questions.csv, eval.mjs, assistant-spec.md
 
@@ -789,7 +817,7 @@ Search mode shown. Every answer lists the brochure it came from.
 
 **You'll build:** A two-mode assistant that stays grounded under attack
 
-**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 77–80
+**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 78–81
 
 **Lab folder:** labs/lab-07-chatgpt-mode-and-red-team/ — assets: grounded-prompt.md, red-team.csv, responses-api-example.md
 
@@ -848,7 +876,7 @@ Codex sees the screen and operates it, one step at a time.
 
 **You'll build:** A ranked defect table with screenshots, and one verified fix
 
-**Surface:** Codex + Computer Use  ·  **Time:** 25 min  ·  **Slides:** 82–85
+**Surface:** Codex + Computer Use  ·  **Time:** 25 min  ·  **Slides:** 83–86
 
 **Lab folder:** labs/lab-08-qa-with-computer-use/ — assets: qa-script.md, defect-template.csv
 
@@ -902,7 +930,7 @@ The assistant answers correctly and the site passes QA. But every check still de
 
 ## Topic 3 — Skills and Hooks
 
-Slides 87–116. In this topic you will:
+Slides 88–117. In this topic you will:
 
 - Skills: packaged expertise, from skills.sh or your own
 - Custom Codex skills with $skill-creator
@@ -977,7 +1005,7 @@ All verified on skills.sh and installed with npx skills add.
 
 **You'll build:** A polished UI, a ranked security review, and skills-lock.json
 
-**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 93–98
+**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 94–99
 
 **Lab folder:** labs/lab-09-skills-from-skills-sh/ — assets: skills-to-install.md, security-review-scope.md
 
@@ -1076,7 +1104,7 @@ Never invent a fee, date or allergen. Ask.
 
 **You'll build:** $kb-update and $course-brochure skills, and a new course live
 
-**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 101–106
+**Surface:** Codex  ·  **Time:** 25 min  ·  **Slides:** 102–107
 
 **Lab folder:** labs/lab-10-custom-codex-skills/ — assets: BAK-111-mooncake.md, project-setup-skill/, skill-reference.md
 
@@ -1161,7 +1189,7 @@ There is no /schedule command. Describe the work and the cadence.
 
 **You'll build:** Two trusted hooks, a gated deploy and a Monday health check
 
-**Surface:** Codex → GitHub Actions → Scheduled  ·  **Time:** 35 min  ·  **Slides:** 110–115
+**Surface:** Codex → GitHub Actions → Scheduled  ·  **Time:** 35 min  ·  **Slides:** 111–116
 
 **Lab folder:** labs/lab-11-guard-rails-that-run-themselves/ — assets: hooks.json, guard_secrets.py, kb_rebuild.py, test_hooks.py, pages.yml, health-check-task.md
 
@@ -1248,7 +1276,7 @@ Everything Cook & Bake needs to take bookings is online.
 
 ## Topic 4 — Running the Academy with ChatGPT Work
 
-Slides 117–142. In this topic you will:
+Slides 118–143. In this topic you will:
 
 - From website to operating business
 - Plan mode and connectors: Drive, Calendar, Gmail
@@ -1299,7 +1327,7 @@ Reading is recoverable. Sending is not.
 
 **You'll build:** A pricing workbook with live formulas and a fee recommendation
 
-**Surface:** ChatGPT Work + @Drive → Chat  ·  **Time:** 35 min  ·  **Slides:** 122–125
+**Surface:** ChatGPT Work + @Drive → Chat  ·  **Time:** 35 min  ·  **Slides:** 123–126
 
 **Lab folder:** labs/lab-12-price-the-courses/ — assets: recipe-costs.csv, fixed-costs.csv, courses.json, instructors.csv, pricing-rules.md
 
@@ -1353,7 +1381,7 @@ Why it matters: Chat is for the quick second opinion; Work is for the artifact y
 
 **You'll build:** A dedicated term calendar with every session, and a clash report
 
-**Surface:** ChatGPT Work + @Drive + @Calendar  ·  **Time:** 30 min  ·  **Slides:** 126–129
+**Surface:** ChatGPT Work + @Drive + @Calendar  ·  **Time:** 30 min  ·  **Slides:** 127–130
 
 **Lab folder:** labs/lab-13-term-on-the-calendar/ — assets: term-schedule.csv, instructors.csv, closures.csv
 
@@ -1417,7 +1445,7 @@ The same "schedule by asking" pattern from Codex, in Work.
 
 **You'll build:** One draft per learner, a flag list, and a weekly reminder task
 
-**Surface:** ChatGPT Work + @Drive + @Gmail → Scheduled  ·  **Time:** 35 min  ·  **Slides:** 131–135
+**Surface:** ChatGPT Work + @Drive + @Gmail → Scheduled  ·  **Time:** 35 min  ·  **Slides:** 132–136
 
 **Lab folder:** labs/lab-14-enrol-and-remind/ — assets: signups.csv, email-guidelines.md
 
@@ -1485,7 +1513,7 @@ The same idea as Codex skills, called with @ instead of $.
 
 **You'll build:** An enquiry-reply skill, an event-triggered drafting task and a feedback report
 
-**Surface:** Chat → ChatGPT Work (@skill-creator, @Gmail, event trigger)  ·  **Time:** 35 min  ·  **Slides:** 137–141
+**Surface:** Chat → ChatGPT Work (@skill-creator, @Gmail, event trigger)  ·  **Time:** 35 min  ·  **Slides:** 138–142
 
 **Lab folder:** labs/lab-15-customer-service/ — assets: enquiries.md, faq.md, policies.md, feedback.csv, reply-tone.md
 
@@ -1551,7 +1579,7 @@ This work touches learners' calendars and inboxes. Three questions before it run
 
 ## Topic 5 — Digital Marketing
 
-Slides 143–174. In this topic you will:
+Slides 144–175. In this topic you will:
 
 - A funnel for a course business
 - Marketing know-how as custom skills; the flyer with $imagegen
@@ -1594,7 +1622,7 @@ A built-in Codex skill: it creates and edits images as files in your project.
 
 **You'll build:** Four marketing skills (brand-voice, flyer-design, social-post, youtube-package) and an A5 flyer, 1:1 post and 9:16 story
 
-**Surface:** Chat → Codex ($skill-creator, $imagegen)  ·  **Time:** 30 min  ·  **Slides:** 147–151
+**Surface:** Chat → Codex ($skill-creator, $imagegen)  ·  **Time:** 30 min  ·  **Slides:** 148–152
 
 **Lab folder:** labs/lab-16-marketing-skills-and-flyer/ — assets: brand-brief.md, flyer-brief.md, term-highlights.md, marketing-skills-spec.md, marketing-skills-reference/
 
@@ -1679,7 +1707,7 @@ Agents write and plan the video; a person films or edits it.
 
 **You'll build:** content/week-01/: 7 posts, images, a YouTube video package and a review log
 
-**Surface:** Codex (custom agents + custom skills)  ·  **Time:** 45 min  ·  **Slides:** 155–159
+**Surface:** Codex (custom agents + custom skills)  ·  **Time:** 45 min  ·  **Slides:** 156–160
 
 **Lab folder:** labs/lab-17-multi-agent-content-studio/ — assets: agents/, post-performance.csv, content-pillars.md, youtube-brief.md, courses.json
 
@@ -1756,7 +1784,7 @@ Lab 18 turns attention into sign-ups — lawfully.
 
 **You'll build:** A lead magnet, an SEO-fixed site, a newsletter to consented contacts only, and a results report
 
-**Surface:** Codex (skills.sh) → ChatGPT Work (@Gmail, analysis)  ·  **Time:** 40 min  ·  **Slides:** 161–165
+**Surface:** Codex (skills.sh) → ChatGPT Work (@Gmail, analysis)  ·  **Time:** 40 min  ·  **Slides:** 162–166
 
 **Lab folder:** labs/lab-18-open-house-campaign/ — assets: open-house-brief.md, optins.csv, campaign-results.csv, utm-plan.md, skills-to-install.md
 

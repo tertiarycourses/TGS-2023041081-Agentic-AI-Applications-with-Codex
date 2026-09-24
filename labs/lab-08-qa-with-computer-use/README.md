@@ -1,7 +1,7 @@
 # Lab 08 — QA the Whole Site with @Computer Use
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 2 · about 25 minutes · slides 82–85**  
+**Day 1 · Topic 2 · about 25 minutes · slides 83–86**  
 **Surface:** Codex + Computer Use  
 **Features:** @Computer Use · evidence-based QA
 

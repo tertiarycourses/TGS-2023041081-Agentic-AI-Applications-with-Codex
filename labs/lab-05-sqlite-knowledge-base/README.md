@@ -1,7 +1,7 @@
 # Lab 05 — Turn the Brochures into a SQLite Knowledge Base
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 2 · about 25 minutes · slides 64–67**  
+**Day 1 · Topic 2 · about 25 minutes · slides 65–68**  
 **Surface:** Codex  
 **Features:** SQLite FTS5 · official SQLite WASM · nested AGENTS.md
 

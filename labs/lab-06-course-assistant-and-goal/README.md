@@ -1,7 +1,7 @@
 # Lab 06 — Build the Course Assistant and Drive It with /goal
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 2 · about 35 minutes · slides 69–73**  
+**Day 1 · Topic 2 · about 35 minutes · slides 70–74**  
 **Surface:** Codex  
 **Features:** In-browser RAG · golden-question evaluation · /goal
 

@@ -1,7 +1,7 @@
 # Lab 03 — Project Rules and a Sign-up Form for Every Course
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 1 · about 30 minutes · slides 46–49**  
+**Day 1 · Topic 1 · about 30 minutes · slides 47–50**  
 **Surface:** Codex  
 **Features:** /init · AGENTS.md · static-site forms · consent
 

@@ -1,7 +1,7 @@
 # Lab 12 — Price the Courses and Find Break-even
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 4 · about 35 minutes · slides 122–125**  
+**Day 2 · Topic 4 · about 35 minutes · slides 123–126**  
 **Surface:** ChatGPT Work + @Drive → Chat  
 **Features:** Plan mode in Work · spreadsheet artifact · @Drive
 

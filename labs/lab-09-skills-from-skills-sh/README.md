@@ -1,7 +1,7 @@
 # Lab 09 — Install Community Skills from skills.sh
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 3 · about 25 minutes · slides 93–98**  
+**Day 1 · Topic 3 · about 25 minutes · slides 94–99**  
 **Surface:** Codex  
 **Features:** npx skills add · frontend-design · cybersecurity-analyst · anthropic-cybersecurity-skills
 

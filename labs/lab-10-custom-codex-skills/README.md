@@ -1,7 +1,7 @@
 # Lab 10 — Create Custom Codex Skills
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 3 · about 25 minutes · slides 101–106**  
+**Day 1 · Topic 3 · about 25 minutes · slides 102–107**  
 **Surface:** Codex  
 **Features:** $skill-installer · $skill-creator · implicit triggering
 

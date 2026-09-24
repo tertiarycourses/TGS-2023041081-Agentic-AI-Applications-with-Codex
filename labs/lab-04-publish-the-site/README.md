@@ -1,7 +1,7 @@
 # Lab 04 — Publish the Site: GitHub Pages and Sites
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 1 · about 25 minutes · slides 51–55**  
+**Day 1 · Topic 1 · about 25 minutes · slides 52–56**  
 **Surface:** Codex → GitHub Pages → @Sites  
 **Features:** git · GitHub Actions · GitHub Pages · @Sites access control
 

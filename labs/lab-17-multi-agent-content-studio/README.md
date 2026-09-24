@@ -1,7 +1,7 @@
 # Lab 17 — A Multi-Agent Content Studio
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 5 · about 45 minutes · slides 155–159**  
+**Day 2 · Topic 5 · about 45 minutes · slides 156–160**  
 **Surface:** Codex (custom agents + custom skills)  
 **Features:** .codex/agents/*.toml · parallel subagents · the Lab 16 skills · reviewer agent
 

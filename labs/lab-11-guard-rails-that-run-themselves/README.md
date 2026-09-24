@@ -1,7 +1,7 @@
 # Lab 11 — Guard Rails That Run Themselves
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 1 · Topic 3 · about 35 minutes · slides 110–115**  
+**Day 1 · Topic 3 · about 35 minutes · slides 111–116**  
 **Surface:** Codex → GitHub Actions → Scheduled  
 **Features:** hooks.json · PreToolUse · PostToolUse · deploy gate · scheduled task
 

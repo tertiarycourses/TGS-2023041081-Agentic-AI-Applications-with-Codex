@@ -1,7 +1,7 @@
 # Lab 15 — Customer Service with a ChatGPT Skill
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
-**Day 2 · Topic 4 · about 35 minutes · slides 137–141**  
+**Day 2 · Topic 4 · about 35 minutes · slides 138–142**  
 **Surface:** Chat → ChatGPT Work (@skill-creator, @Gmail, event trigger)  
 **Features:** Skills in ChatGPT · event-triggered tasks · feedback analysis
 
