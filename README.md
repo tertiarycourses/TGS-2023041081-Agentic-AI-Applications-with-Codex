@@ -66,7 +66,7 @@ Each lab has its own folder with the scenario and context, a step-by-step README
 
 ## Public package
 
-- [Learner Guide (Markdown, v12.0)](LG-Agentic%20AI%20Applications%20with%20Codex-v12.0.md) — concepts and the full step-by-step procedure for every lab
+- [Learner Guide (Markdown, v12.1)](LG-Agentic%20AI%20Applications%20with%20Codex-v12.1.md) — concepts and the full step-by-step procedure for every lab
 - [Scenario](labs/SCENARIO.md) and [labs index](labs/README.md)
 - 18 self-contained lab folders; Lab 11's solution holds the complete verified Cook & Bake site
 

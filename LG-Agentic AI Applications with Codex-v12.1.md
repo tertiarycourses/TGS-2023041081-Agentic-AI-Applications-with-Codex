@@ -1,6 +1,6 @@
 # Agentic AI Applications with Codex — Learner Guide
 
-TGS-2023041081 · Version 12.0 · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
+TGS-2023041081 · Version 12.1 · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
 
 ## How to Use This Guide
 
@@ -112,11 +112,11 @@ Slides 17–56. In this topic you will:
 
 - **2023 · Prompt Engineering** — ChatGPT goes mainstream; "prompt engineer" becomes a job title. Craft the wording of one prompt.
 - **2024 · Tools and MCP** — Models call tools. Anthropic open-sources the Model Context Protocol (Nov 2024) to connect them to data.
-- **2025 · Context Engineering** — Fill the context window with exactly what the next step needs — named by Lütke and Karpathy, June 2025.
-- **2026 · Harness Engineering** — Engineer the whole environment around the agent — OpenAI, Feb 2026. e.g. Codex, Claude Code.
+- **2024 · Context Engineering** — Fill the context window with exactly what the next step needs — RAG, memory, tools. Named by Lütke and Karpathy in June 2025.
+- **2025 · Harness Engineering** — Agents ship inside a harness — Claude Code, Codex CLI, Codex. OpenAI named the practice in Feb 2026.
 - **2026 · AI Agents** — Autonomous agents that run for hours across your apps — e.g. OpenClaw, Hermes Agent.
 
-Sources: Axios (Feb 2023) · Anthropic (Nov 2024) · Karpathy on X (Jun 2025) · OpenAI, "Harness engineering" (Feb 2026).
+Years show when each practice took hold; the names came later. Sources: Axios (Feb 2023) · Anthropic (Nov 2024) · Karpathy on X (Jun 2025) · Anthropic, OpenAI launches (2025) · OpenAI, "Harness engineering" (Feb 2026).
 
 #### What is Harness Engineering?
 
