@@ -1,4 +1,5 @@
 // Course catalogue, filters, search, FAQ and the per-course sign-up form.
+import { parseCourses } from './csv.js';
 import { openSignup } from './signup.js';
 
 const grid = document.querySelector('#course-grid');
@@ -56,6 +57,6 @@ async function loadFaq() {
   document.querySelector('#faq-list').innerHTML = items.join('');
 }
 
-courses = await (await fetch('data/courses.json')).json();
+courses = parseCourses(await (await fetch('data/courses.csv')).text());
 render();
 loadFaq();

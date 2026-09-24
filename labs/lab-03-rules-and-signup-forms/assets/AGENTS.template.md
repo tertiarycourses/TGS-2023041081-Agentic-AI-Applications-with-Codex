@@ -8,7 +8,7 @@ JavaScript. It must run on GitHub Pages or Sites with **no backend**.
 ## Commands
   npm install          Install the SQLite WASM build (dev only)
   npm run vendor       Copy SQLite WASM into vendor/ for the browser
-  npm run build:kb     Rebuild data/academy.db from kb/ and data/courses.json
+  npm run build:kb     Rebuild data/academy.db from kb/ and data/courses.csv
   npm run eval         Score the assistant on eval/golden-questions.csv
   npm run check        build:kb + eval — must pass 30/30 before any commit
   npm run serve        Serve locally on http://localhost:8080
@@ -21,7 +21,7 @@ JavaScript. It must run on GitHub Pages or Sites with **no backend**.
   js/rag.js                   Retrieval — shared by the browser and eval
   js/chat.js                  Course assistant UI and ChatGPT mode
   kb/                         Source documents for the assistant (see kb/AGENTS.md)
-  data/courses.json           The course catalogue — the only place fees live
+  data/courses.csv           The course catalogue — the only place fees live
 
 ## Conventions
 - No framework, no bundler, no build step for the page itself.

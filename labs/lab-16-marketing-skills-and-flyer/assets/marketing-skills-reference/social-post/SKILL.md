@@ -12,5 +12,5 @@ description: Use when asked for an Instagram, Facebook or TikTok post or caption
 - Alt text for the image.
 
 ## Rules
-Facts only from courses.json. No more than 1 in 5 posts is a hard sell.
+Facts only from courses.csv. No more than 1 in 5 posts is a hard sell.
 Never show a learner's face without consent.

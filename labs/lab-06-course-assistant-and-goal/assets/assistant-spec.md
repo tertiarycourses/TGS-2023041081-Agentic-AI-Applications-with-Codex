@@ -23,4 +23,5 @@ Map "how long" → duration, "when/start" → intakes, "how much" → fee,
 
 ## Rules
 - Render all text with `textContent`.
-- `js/rag.js` is shared with `scripts/eval.mjs` — test what you ship.
+- The test that Codex writes (npm run eval) uses the same `js/rag.js` as
+  the site — test what you ship.

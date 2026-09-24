@@ -2,7 +2,7 @@
 
 Capture a screenshot or file for each line. Evidence beats a description.
 
-- [ ] Three skills are in .agents/skills/ and skills-lock.json.
+- [ ] Three skills are in .agents/skills/ and in the lock file.
 - [ ] You read each SKILL.md before running it.
 - [ ] The design change kept every fee and behaviour — check the diff.
 - [ ] The security review ranks findings with evidence.

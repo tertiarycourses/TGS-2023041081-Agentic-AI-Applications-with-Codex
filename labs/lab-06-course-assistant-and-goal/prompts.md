@@ -18,7 +18,10 @@ assistant-spec.md.
   and lists its sources as links.
 - No results → a polite refusal with our contact.
 - Render all text with textContent.
-Share rag.js with scripts/eval.mjs.
+- Add npm run eval: ask every question in
+  eval/golden-questions.csv and pass it when the
+  top 3 results include the expected source and
+  text. Print the score, e.g. 30/30.
 ```
 
 ## PROMPT B — /goal

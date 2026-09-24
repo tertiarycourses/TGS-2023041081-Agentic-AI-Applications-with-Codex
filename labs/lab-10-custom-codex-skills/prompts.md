@@ -22,7 +22,7 @@ project skill called kb-update.
 
 It should trigger when a course is added, changed
 or withdrawn, or a fee, date, allergen or policy
-changes. Steps: update data/courses.json first,
+changes. Steps: update data/courses.csv first,
 then the kb/ brochure to match, then run
 npm run check. Never edit the golden questions to
 pass. Report files changed and the eval score.
@@ -33,7 +33,7 @@ pass. Report files changed and the eval score.
 ```
 $skill-creator Create a project skill called
 course-brochure: given a course code, write a
-one-page A4 HTML brochure from courses.json and the
+one-page A4 HTML brochure from courses.csv and the
 kb/ brochure only — photo, schedule, intakes, fee,
 what you learn, allergens, sign-up link. Stop and
 report if the two sources disagree.

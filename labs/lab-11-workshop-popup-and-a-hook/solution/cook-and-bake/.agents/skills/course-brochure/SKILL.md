@@ -3,7 +3,7 @@ name: course-brochure
 description: Use when asked to create, refresh or export a course brochure,
   course one-pager or printable course sheet for Cook & Bake. Builds a
   print-ready A4 HTML brochure (and PDF if a converter is available) from
-  data/courses.json and kb/brochures, with no invented facts.
+  data/courses.csv and kb/brochures, with no invented facts.
 ---
 
 # course-brochure
@@ -12,7 +12,7 @@ description: Use when asked to create, refresh or export a course brochure,
 - A course code (e.g. BAK-104), or "all".
 
 ## Steps
-1. Read the course from data/courses.json and its kb/brochures/<CODE>.md.
+1. Read the course from data/courses.csv and its kb/brochures/<CODE>.md.
 2. Write brochures/<CODE>.html: one A4 page, print CSS, the course photo
    from the card, title, level, campus, schedule, next two intakes, fee,
    four "what you will learn" points, allergens, what to bring and a

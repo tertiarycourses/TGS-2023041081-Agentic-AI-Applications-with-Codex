@@ -3,13 +3,14 @@
 //   kb/brochures/*.md, kb/faq.md, kb/policies.md, kb/campuses.md
 //     → split into one chunk per "## " section
 //     → FTS5 table `chunks` (porter stemming, so "refunds" finds "refund")
-//   data/courses.json
+//   data/courses.csv (the Excel-friendly catalogue)
 //     → table `courses` for fee / duration questions keyword search can't answer
 //
 // Runs in Node with the official SQLite WASM build — the same engine the
 // browser uses, so the file it writes opens identically on GitHub Pages.
 import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
+import { parseCourses } from '../js/csv.js';
 import { join } from 'node:path';
 
 const KB = 'kb';
@@ -32,7 +33,7 @@ for (const f of readdirSync(join(KB, 'brochures')).filter(f => f.endsWith('.md')
 for (const [id, url] of [['faq', '#faq'], ['policies', '#faq'], ['campuses', '#campuses']]) {
   docs.push(...chunk(id, readFileSync(join(KB, `${id}.md`), 'utf8'), url));
 }
-const courses = JSON.parse(readFileSync('data/courses.json', 'utf8'));
+const courses = parseCourses(readFileSync('data/courses.csv', 'utf8'));
 
 const sqlite3 = await sqlite3InitModule({ print: () => {}, printErr: () => {} });
 const db = new sqlite3.oo1.DB(':memory:');

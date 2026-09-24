@@ -1,7 +1,7 @@
 # Marketing skills to create (Lab 16)
 
 Create each with $skill-creator as a project skill in .agents/skills/.
-Every skill follows brand-voice and takes facts only from courses.json or
+Every skill follows brand-voice and takes facts only from courses.csv or
 term-highlights.md — never invented.
 
 ## brand-voice

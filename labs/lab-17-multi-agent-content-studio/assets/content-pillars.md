@@ -8,6 +8,6 @@
 | Courses and events | 20% | the open house, a new intake — never more than 1 in 5 posts |
 
 Voice: warm, practical, confident. Short captions. One call to action.
-Every fee, date or course fact must come from courses.json.
+Every fee, date or course fact must come from courses.csv.
 Never show a learner's face without their consent (see policies).
 Hashtags: 3 branded or topical + 2 local (#sgfoodie, #sgbakes).

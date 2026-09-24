@@ -29,7 +29,7 @@ $kb-update and $course-brochure skills, and a new course live
 ## Step by step
 
 1. **Install a given skill** — Paste Prompt A — install only, do not run.
-2. **Do the job by hand** — Add BAK-111 Mooncake Making using the supplied details: courses.json, a brochure, one golden question. Run npm run check.
+2. **Do the job by hand** — Add BAK-111 Mooncake Making using the supplied details: courses.csv, a brochure, one golden question. Run npm run check.
 3. **Save it as a skill** — Paste Prompt B.
 4. **Create a second skill** — Paste Prompt C for course-brochure.
 5. **Test by name** — Run $course-brochure BAK-111.
@@ -54,7 +54,7 @@ $kb-update and $course-brochure skills, and a new course live
 >
 > It should trigger when a course is added, changed
 > or withdrawn, or a fee, date, allergen or policy
-> changes. Steps: update data/courses.json first,
+> changes. Steps: update data/courses.csv first,
 > then the kb/ brochure to match, then run
 > npm run check. Never edit the golden questions to
 > pass. Report files changed and the eval score.
@@ -63,7 +63,7 @@ $kb-update and $course-brochure skills, and a new course live
 
 > $skill-creator Create a project skill called
 > course-brochure: given a course code, write a
-> one-page A4 HTML brochure from courses.json and the
+> one-page A4 HTML brochure from courses.csv and the
 > kb/ brochure only — photo, schedule, intakes, fee,
 > what you learn, allergens, sign-up link. Stop and
 > report if the two sources disagree.

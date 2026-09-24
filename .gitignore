@@ -10,9 +10,9 @@ build/
 courseware/archive/
 courseware/assets/
 courseware/technical-anchor-inventory.csv
-QA-*.md
-qa/
-renders/
+/QA-*.md
+/qa/
+/renders/
 
 # Only the current PPT, LG and LP are published; superseded versions live in
 # courseware/archive/ locally and are never pushed

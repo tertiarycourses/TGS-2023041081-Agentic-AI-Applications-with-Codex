@@ -2,13 +2,12 @@
 
 Capture a screenshot or file for each line. Evidence beats a description.
 
-- [ ] Five agent threads ran; you opened at least two.
+- [ ] Codex confirmed all five roles before starting.
+- [ ] Five subagents ran; you opened at least two in the Subagents panel.
 - [ ] The strategist's plan cites what performed best.
 - [ ] content/week-01/ holds 7 posts, 7 images and the video package.
 - [ ] The reviewer logged at least one issue, and it was fixed.
-- [ ] Every fee and date matches courses.json.
-- [ ] The YouTube package has title, chapters, tags and a thumbnail.
-- [ ] Nothing was published.
+- [ ] Every fee and date matches courses.csv, and nothing was published.
 
 ## Notes
 

@@ -24,7 +24,7 @@ Plan first, then research.
 Research the market for hands-on cooking and
 baking classes in Singapore for Cook & Bake
 Academy. Our proposed catalogue is attached
-(courses.json).
+(courses.csv).
 
 Answer:
 1. Who the customers are — 3 personas.

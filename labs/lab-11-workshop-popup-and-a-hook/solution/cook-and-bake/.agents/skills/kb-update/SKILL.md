@@ -1,7 +1,7 @@
 ---
 name: kb-update
 description: Use when a course is added, changed or withdrawn, or when a fee,
-  intake date, allergen or policy changes. Updates data/courses.json and the
+  intake date, allergen or policy changes. Updates data/courses.csv and the
   matching kb/ brochure, rebuilds academy.db and proves the course assistant
   still passes its golden questions.
 ---
@@ -12,10 +12,10 @@ Keep the catalogue, the brochures and the assistant's database in step.
 
 ## Steps
 1. Read kb/AGENTS.md for the brochure format.
-2. Update data/courses.json first — it is the source of truth for code,
+2. Update data/courses.csv first — it is the source of truth for code,
    title, fee, weeks, schedule and intakes.
 3. Create or edit kb/brochures/<CODE>.md so every figure matches
-   courses.json exactly. Keep the six "## " sections in order.
+   courses.csv exactly. Keep the six "## " sections in order.
 4. If the change affects the FAQ or policies, edit kb/faq.md or
    kb/policies.md too.
 5. Run `npm run check`.
@@ -32,4 +32,4 @@ Keep the catalogue, the brochures and the assistant's database in step.
 ## Never
 - Never invent a fee, date or allergen. Ask if it is missing.
 - Never delete a brochure for a withdrawn course without asking — mark it
-  withdrawn in courses.json and the brochure instead.
+  withdrawn in courses.csv and the brochure instead.

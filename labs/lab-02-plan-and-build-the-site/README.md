@@ -19,7 +19,7 @@ A running site: hero with photos, 20 course cards, filters, search, campuses
 
 ## What is in this folder
 
-- `assets/courses.json`
+- `assets/courses.csv`
 - `assets/brand.md`
 - `assets/market-brief-sample.md`
 - `assets/hero-images.md`
@@ -29,11 +29,11 @@ A running site: hero with photos, 20 course cards, filters, search, campuses
 
 ## Step by step
 
-1. **Create the project** — Make a folder cook-and-bake, run git init, and copy courses.json into data/ and brand.md to the root.
+1. **Create the project** — Make a folder cook-and-bake, run git init, and copy courses.csv into data/ and brand.md to the root. Open courses.csv in Excel first — one row per course.
 2. **Open it in Codex** — Create a local project, then Edit project → Add folder → cook-and-bake. Select GPT-6 Sol.
 3. **Plan first** — Type /plan, then paste the prompt. Read the questions Codex asks.
 4. **Answer and narrow** — Answer every question. Cut or narrow one step, then approve.
-5. **Serve it** — Run python3 -m http.server 8080 — the page loads courses.json with fetch(), which fails on file://.
+5. **Serve it** — Run python3 -m http.server 8080. The page reads courses.csv from the web server, so opening the file directly will not work.
 6. **Look at it** — Open http://localhost:8080 at desktop width, then at 375px.
 
 ## The prompts
@@ -47,9 +47,11 @@ A running site: hero with photos, 20 course cards, filters, search, campuses
 > - Hero: headline, one-line pitch, two buttons
 >   (Browse courses, Ask our course assistant) and a
 >   collage of 3 food photos (see hero-images.md).
-> - Course grid rendered from data/courses.json —
->   never hard-code a fee. Card: photo, code, level,
->   campus, title, summary, weeks, schedule, fee.
+> - Course grid read from data/courses.csv (one row
+>   per course; the learn and intakes columns list
+>   items separated by "; "). Never hard-code a fee.
+>   Card: photo, code, level, campus, title, summary,
+>   weeks, schedule, fee.
 > - Filter chips All / Bakery / Cooking + a search box.
 > - Campuses section and an empty FAQ section.
 >
@@ -65,7 +67,7 @@ A running site: hero with photos, 20 course cards, filters, search, campuses
 
 - [ ] Plan mode showed numbered steps AND questions before any edit.
 - [ ] You answered its questions instead of letting it guess.
-- [ ] All 20 cards render from data/courses.json — no fee in the HTML.
+- [ ] All 20 cards render from data/courses.csv — no fee in the HTML.
 - [ ] Bakery shows exactly 10 courses; Cooking shows 10.
 - [ ] The hero shows a three-photo collage.
 - [ ] No horizontal scroll at 375px wide.

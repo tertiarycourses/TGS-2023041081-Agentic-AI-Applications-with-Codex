@@ -43,7 +43,7 @@ it resolves to your own inbox.
 | 14 | [Enrol the Learners and Automate Reminders](lab-14-enrol-and-remind/README.md) | 2 | ChatGPT Work + @Drive + @Gmail → Scheduled | 35 min |
 | 15 | [Customer Service with a ChatGPT Skill](lab-15-customer-service/README.md) | 2 | Chat → ChatGPT Work (@skill-creator, @Gmail, event trigger) | 35 min |
 | 16 | [Marketing Know-how as Skills, Then the Flyer](lab-16-marketing-skills-and-flyer/README.md) | 2 | Chat → Codex ($skill-creator, $imagegen) | 30 min |
-| 17 | [A Multi-Agent Content Studio](lab-17-multi-agent-content-studio/README.md) | 2 | Codex (custom agents + custom skills) | 45 min |
+| 17 | [A Multi-Agent Content Studio](lab-17-multi-agent-content-studio/README.md) | 2 | Codex (subagents + the Lab 16 skills) | 45 min |
 | 18 | [Lead Magnet, Newsletter and the Open-House Campaign](lab-18-open-house-campaign/README.md) | 2 | Codex (skills.sh) → ChatGPT Work (@Gmail, analysis) | 40 min |
 
 ## Before you start

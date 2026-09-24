@@ -86,7 +86,7 @@ A 10-second workshop invite with a name, mobile and email form, and a trusted ho
 
 ## Stretch
 
-- Add npm run check to .github/workflows/pages.yml so a failing check also blocks the deploy.
+- Ask Codex to show the invite after the visitor scrolls halfway down, instead of after 10 seconds.
 - Add a "Workshop sign-ups" table to admin.html with a CSV export.
 
 > **Why it matters:** A timer, a hook and a schedule are three different triggers: the popup waits for the visitor, the hook waits for Codex to edit, a scheduled task waits for the clock (Lab 14).

@@ -2,8 +2,8 @@
 
 **Course:** Agentic AI Applications with Codex (TGS-2023041081)  
 **Day 2 · Topic 5 · about 45 minutes · slides 156–160**  
-**Surface:** Codex (custom agents + custom skills)  
-**Features:** .codex/agents/*.toml · parallel subagents · the Lab 16 skills · reviewer agent
+**Surface:** Codex (subagents + the Lab 16 skills)  
+**Features:** agents described in the prompt · subagents in parallel · the Lab 16 skills · a reviewer
 
 ## The story so far
 
@@ -11,7 +11,7 @@ Grace wants to post every day and start a YouTube channel, with no marketing sta
 
 ## Your goal
 
-One agent writing everything produces one voice and no second opinion. Five specialists — with a reviewer at the end — produce a week of content fast and safely.
+One agent writing everything produces one voice and no second opinion. Five specialists — with a reviewer at the end — produce a week of content fast and safely. You set them up in plain words, not config files.
 
 ## You'll build
 
@@ -19,81 +19,81 @@ content/week-01/: 7 posts, images, a YouTube video package and a review log
 
 ## What is in this folder
 
-- `assets/agents/`
+- `assets/studio-roles.md`
 - `assets/post-performance.csv`
 - `assets/content-pillars.md`
 - `assets/youtube-brief.md`
-- `assets/courses.json`
+- `assets/courses.csv`
 - `prompts.md` / `prompts.pdf` — every prompt, ready to paste
 - `evidence/checklist.md` — what to capture as proof
 
 ## Step by step
 
-1. **Load the agents** — In the cookbake-marketing project from Lab 16, copy agents/ to .codex/agents/.
-2. **Read the agents** — Open each .toml: what it may do, which model, which sandbox.
-3. **Run the studio** — Paste the prompt. Open each subagent thread from the activity feed as it works.
-4. **Read the review** — The brand-reviewer must flag at least one problem. Confirm it was fixed.
-5. **Make the video** — Film the shot list on a phone in the kitchen, or cut the $imagegen storyboard frames with a voice-over in any video editor.
-6. **Stage, do not publish** — Posts stay as files for a human to schedule.
+1. **Open the project** — Use the cookbake-marketing project from Lab 16, with its four marketing skills installed. Copy the assets into it.
+2. **Meet the team** — Paste Prompt A. It describes the five agents in plain words (longer notes: studio-roles.md). Codex confirms each role in one line.
+3. **Run the studio** — Paste Prompt B. Codex starts the agents as subagents — watch them move from Active to Done in the Subagents panel.
+4. **Look inside** — Click two finished agents to see what each one did and the summary it sent back.
+5. **Read the review** — The brand reviewer must flag at least one problem. Confirm it was fixed.
+6. **Make the video** — Film the shot list on a phone in the kitchen, or cut the $imagegen storyboard frames with a voice-over in any video editor.
+7. **Stage, do not publish** — Posts stay as files for a person to schedule.
 
 ## The prompts
 
-### agents/copywriter.toml — one of five
+### PROMPT A — meet the team
 
-```
-name = "copywriter"
-description = "Writes captions, hooks and hashtags
-  for Cook & Bake social posts."
-model = "gpt-6-luna"
-sandbox_mode = "workspace-write"
-developer_instructions = """
-Use $social-post and $brand-voice. Every
-fee, date and course fact must come from
-courses.json. Save each post to
-content/week-01/posts/. Never publish.
-"""
-```
-
-### PROMPT — Codex
-
-> Run the content studio for next week.
+> We are running a content studio with five
+> agents. Here is the team — do not start yet.
 >
-> 1. strategist: read post-performance.csv and
->    content-pillars.md; plan 7 posts (platform,
->    format, topic, course) and one YouTube video.
-> Then in parallel:
-> 2. copywriter: all 7 posts with $social-post.
-> 3. visual-director: one image per post with
->    $imagegen, following $brand-voice.
-> 4. video-producer: the YouTube package with
->    $youtube-package from youtube-brief.md,
->    including storyboard frames made with $imagegen
->    and a 30-second Short.
-> Then:
-> 5. brand-reviewer: check everything against
->    courses.json and content-pillars.md; log issues
->    and send fixes back.
-> Save to content/week-01/. Publish nothing.
+> 1. Strategist: reads post-performance.csv and
+>    content-pillars.md, then plans 7 posts and
+>    one YouTube video for next week.
+> 2. Copywriter: writes the 7 posts with
+>    $social-post, in our $brand-voice.
+> 3. Visual director: makes one image per post
+>    with $imagegen, on brand.
+> 4. Video producer: writes the YouTube package
+>    with $youtube-package and youtube-brief.md,
+>    plus a 30-second Short.
+> 5. Brand reviewer: checks everything against
+>    courses.csv. It reports problems; it does
+>    not edit.
+>
+> Rules for everyone: every fee and date comes
+> from courses.csv. Publish nothing.
+> Reply with one line per agent to confirm.
+
+### PROMPT B — run the studio
+
+> Now run the studio, using subagents.
+> - First, the strategist makes the plan.
+> - Then the copywriter, visual director and
+>   video producer work in parallel, each as
+>   its own subagent.
+> - Last, the brand reviewer checks it all.
+>   Send each problem back to fix.
+> Save to content/week-01/ with a review log,
+> then give me a short summary.
 
 ## Check your work
 
-- [ ] Five agent threads ran; you opened at least two.
+- [ ] Codex confirmed all five roles before starting.
+- [ ] Five subagents ran; you opened at least two in the Subagents panel.
 - [ ] The strategist's plan cites what performed best.
 - [ ] content/week-01/ holds 7 posts, 7 images and the video package.
 - [ ] The reviewer logged at least one issue, and it was fixed.
-- [ ] Every fee and date matches courses.json.
-- [ ] The YouTube package has title, chapters, tags and a thumbnail.
-- [ ] Nothing was published.
+- [ ] Every fee and date matches courses.csv, and nothing was published.
 
 ## If it goes wrong
 
-- **Agents not found** — They load at session start. Start a new chat after copying .codex/agents/.
+- **Codex did it all in one agent** — Ask directly: "use subagents — one per role". Codex delegates when you ask.
+- **Slow or costly** — Every subagent uses its own tokens. Split only work that is truly independent.
 
 ## Stretch
 
-- Add a sixth agent: a community-manager that drafts replies to the 5 most likely comments.
+- Add a sixth agent in plain words: a community manager who drafts replies to the 5 most likely comments.
+- Reuse the team every week: copy the five roles into AGENTS.md, then just say "run the content studio".
 
-> **Why it matters:** Sora's app shut down in April 2026 and its API on 24 Sep 2026. Build video from a script and shot list — film it, or cut $imagegen frames with a voice-over.
+> **Why it matters:** Sora is discontinued. Film the shot list, or cut $imagegen frames with a voice-over.
 
 ## Next
 

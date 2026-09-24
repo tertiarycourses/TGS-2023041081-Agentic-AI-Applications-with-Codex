@@ -20,7 +20,7 @@ A private HTML market report on Sites, and market-brief.md for Codex
 ## What is in this folder
 
 - `assets/business-idea.md`
-- `assets/courses.json`
+- `assets/courses.csv`
 - `assets/report-outline.md`
 - `prompts.md` / `prompts.pdf` — every prompt, ready to paste
 - `evidence/checklist.md` — what to capture as proof
@@ -54,7 +54,7 @@ A private HTML market report on Sites, and market-brief.md for Codex
 > Research the market for hands-on cooking and
 > baking classes in Singapore for Cook & Bake
 > Academy. Our proposed catalogue is attached
-> (courses.json).
+> (courses.csv).
 >
 > Answer:
 > 1. Who the customers are — 3 personas.

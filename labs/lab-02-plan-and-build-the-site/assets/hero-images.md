@@ -12,5 +12,5 @@ Hero collage (one tall, two square):
 | Top   | 1509440159596-0249088772ff  | Rye loaves and wheat  |
 | Bottom| 1551183053-bf91a1d81141     | Fresh pasta           |
 
-Every course in courses.json has its own `img` id for its card.
+Every course in courses.csv has its own `img` id for its card.
 Mark the collage decorative (aria-hidden) and give card images a label.

@@ -20,7 +20,6 @@ A working course assistant that passes 30/30 golden questions
 ## What is in this folder
 
 - `assets/golden-questions.csv`
-- `assets/eval.mjs`
 - `assets/assistant-spec.md`
 - `solution/` — reference files from the verified build
 - `prompts.md` / `prompts.pdf` — every prompt, ready to paste
@@ -29,8 +28,8 @@ A working course assistant that passes 30/30 golden questions
 ## Step by step
 
 1. **Vendor SQLite** — Copy node_modules/@sqlite.org/sqlite-wasm/dist/index.mjs and sqlite3.wasm into vendor/sqlite-wasm/.
-2. **Build the assistant** — Paste Prompt A.
-3. **Score the baseline** — Copy eval.mjs to scripts/ and run npm run eval. Write down the score.
+2. **Build the assistant** — Copy golden-questions.csv to eval/, then paste Prompt A.
+3. **Score the baseline** — Run npm run eval. Write down the score.
 4. **Set a goal** — Paste Prompt B. Check progress with /goal; use /goal pause if it wanders.
 5. **Review the diff** — Confirm golden-questions.csv is unchanged: git diff eval/.
 6. **Try it in the browser** — Ask about nut allergies, the cheapest course, and the weather.
@@ -52,7 +51,10 @@ A working course assistant that passes 30/30 golden questions
 >   and lists its sources as links.
 > - No results → a polite refusal with our contact.
 > - Render all text with textContent.
-> Share rag.js with scripts/eval.mjs.
+> - Add npm run eval: ask every question in
+>   eval/golden-questions.csv and pass it when the
+>   top 3 results include the expected source and
+>   text. Print the score, e.g. 30/30.
 
 ### PROMPT B — /goal
 

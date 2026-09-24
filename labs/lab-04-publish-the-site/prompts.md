@@ -11,7 +11,7 @@ Before committing, list every file you will add and
 confirm there is no .env file, API key or sign-up
 export among them. Write a commit message that says
 why, not what. Push to main, then give me the
-GitHub Actions run URL and the Pages URL.
+Pages URL (https://<your-user>.github.io/cook-and-bake/).
 ```
 
 ## PROMPT B — @Sites

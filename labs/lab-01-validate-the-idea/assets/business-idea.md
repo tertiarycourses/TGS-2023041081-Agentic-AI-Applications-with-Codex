@@ -12,7 +12,7 @@ career changers, taught by working chefs in classes of 12.
   - Orchard Road Bakehouse — all baking courses.
   - Bukit Timah Culinary Campus — all cooking courses.
 - Seven freelance chefs, paid per session.
-- A draft catalogue of 20 courses, S$160 to S$1,580 (courses.json).
+- A draft catalogue of 20 courses, S$160 to S$1,580 (courses.csv).
 - First term starts Saturday 10 October 2026.
 
 ## What Grace does not know

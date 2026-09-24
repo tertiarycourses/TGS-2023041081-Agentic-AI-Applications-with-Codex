@@ -21,7 +21,7 @@ A pricing workbook with live formulas and a fee recommendation
 
 - `assets/recipe-costs.csv`
 - `assets/fixed-costs.csv`
-- `assets/courses.json`
+- `assets/courses.csv`
 - `assets/instructors.csv`
 - `assets/pricing-rules.md`
 - `prompts.md` / `prompts.pdf` — every prompt, ready to paste

@@ -50,7 +50,7 @@ data/academy.db — 140 searchable chunks and a courses table
 >   section, body, url UNINDEXED) with
 >   tokenize='porter unicode61'.
 > - A normal table courses(...) from
->   data/courses.json for fee and date questions.
+>   data/courses.csv for fee and date questions.
 > - Write the file with sqlite3_js_db_export.
 >
 > Then test: "refunds", "nut allergy macaron",

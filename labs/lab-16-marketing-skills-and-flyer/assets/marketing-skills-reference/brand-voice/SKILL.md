@@ -16,5 +16,5 @@ cream #FBF7F1 · basil #3F6B4A. Headings in Georgia. Real food, natural
 light, hands at work, plenty of cream space.
 
 ## Facts
-Fees, dates and courses come only from courses.json. Discounts: only
+Fees, dates and courses come only from courses.csv. Discounts: only
 early-bird 10% and bring-a-friend 5%.

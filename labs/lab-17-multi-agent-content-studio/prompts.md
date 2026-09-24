@@ -1,42 +1,42 @@
 # Prompts — Lab 17: A Multi-Agent Content Studio
 
-Surface: Codex (custom agents + custom skills). Paste each prompt as written; change only what the lab tells you to.
+Surface: Codex (subagents + the Lab 16 skills). Paste each prompt as written; change only what the lab tells you to.
 
-## agents/copywriter.toml — one of five
-
-```
-name = "copywriter"
-description = "Writes captions, hooks and hashtags
-  for Cook & Bake social posts."
-model = "gpt-6-luna"
-sandbox_mode = "workspace-write"
-developer_instructions = """
-Use $social-post and $brand-voice. Every
-fee, date and course fact must come from
-courses.json. Save each post to
-content/week-01/posts/. Never publish.
-"""
-```
-
-## PROMPT — Codex
+## PROMPT A — meet the team
 
 ```
-Run the content studio for next week.
+We are running a content studio with five
+agents. Here is the team — do not start yet.
 
-1. strategist: read post-performance.csv and
-   content-pillars.md; plan 7 posts (platform,
-   format, topic, course) and one YouTube video.
-Then in parallel:
-2. copywriter: all 7 posts with $social-post.
-3. visual-director: one image per post with
-   $imagegen, following $brand-voice.
-4. video-producer: the YouTube package with
-   $youtube-package from youtube-brief.md,
-   including storyboard frames made with $imagegen
-   and a 30-second Short.
-Then:
-5. brand-reviewer: check everything against
-   courses.json and content-pillars.md; log issues
-   and send fixes back.
-Save to content/week-01/. Publish nothing.
+1. Strategist: reads post-performance.csv and
+   content-pillars.md, then plans 7 posts and
+   one YouTube video for next week.
+2. Copywriter: writes the 7 posts with
+   $social-post, in our $brand-voice.
+3. Visual director: makes one image per post
+   with $imagegen, on brand.
+4. Video producer: writes the YouTube package
+   with $youtube-package and youtube-brief.md,
+   plus a 30-second Short.
+5. Brand reviewer: checks everything against
+   courses.csv. It reports problems; it does
+   not edit.
+
+Rules for everyone: every fee and date comes
+from courses.csv. Publish nothing.
+Reply with one line per agent to confirm.
+```
+
+## PROMPT B — run the studio
+
+```
+Now run the studio, using subagents.
+- First, the strategist makes the plan.
+- Then the copywriter, visual director and
+  video producer work in parallel, each as
+  its own subagent.
+- Last, the brand reviewer checks it all.
+  Send each problem back to fix.
+Save to content/week-01/ with a review log,
+then give me a short summary.
 ```

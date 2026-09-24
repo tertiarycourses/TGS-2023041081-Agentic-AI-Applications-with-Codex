@@ -5,6 +5,7 @@
 - [ ] `.gitignore` excludes `.env*` and `signups-*.csv`.
 - [ ] Every fetch path matches the file name exactly — GitHub Pages is
       case-sensitive.
-- [ ] Settings → Pages → Source is **GitHub Actions**.
+- [ ] Settings → Pages → Source is **Deploy from a branch** → `main`,
+      folder `/ (root)`.
 - [ ] The Sites copy is set to **Only those invited**.
 - [ ] You opened both URLs on a phone and signed up for one course.

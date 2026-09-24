@@ -12,9 +12,11 @@ MUST HAVE
 - Hero: headline, one-line pitch, two buttons
   (Browse courses, Ask our course assistant) and a
   collage of 3 food photos (see hero-images.md).
-- Course grid rendered from data/courses.json —
-  never hard-code a fee. Card: photo, code, level,
-  campus, title, summary, weeks, schedule, fee.
+- Course grid read from data/courses.csv (one row
+  per course; the learn and intakes columns list
+  items separated by "; "). Never hard-code a fee.
+  Card: photo, code, level, campus, title, summary,
+  weeks, schedule, fee.
 - Filter chips All / Bakery / Cooking + a search box.
 - Campuses section and an empty FAQ section.
 
