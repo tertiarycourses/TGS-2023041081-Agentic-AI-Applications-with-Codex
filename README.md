@@ -66,11 +66,11 @@ Each lab has its own folder with the scenario and context, a step-by-step README
 
 ## Public package
 
-- **Courseware v12.3** in [courseware/](courseware/):
-  - [Slide deck (PDF)](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.3.pdf) · [PPTX](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.3.pptx)
-  - [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.3.pdf) · [DOCX](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.3.docx)
-  - [Lesson Plan (PDF)](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.3.pdf) · [DOCX](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.3.docx)
-- [Learner Guide (Markdown, v12.3)](LG-Agentic%20AI%20Applications%20with%20Codex-v12.3.md) — concepts and the full step-by-step procedure for every lab
+- **Courseware v12.4** in [courseware/](courseware/):
+  - [Slide deck (PDF)](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.4.pdf) · [PPTX](courseware/Agentic%20AI%20Applications%20with%20Codex-v12.4.pptx)
+  - [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.4.pdf) · [DOCX](courseware/LG-Agentic%20AI%20Applications%20with%20Codex-v12.4.docx)
+  - [Lesson Plan (PDF)](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.4.pdf) · [DOCX](courseware/LP-Agentic%20AI%20Applications%20with%20Codex-v12.4.docx)
+- [Learner Guide (Markdown, v12.4)](LG-Agentic%20AI%20Applications%20with%20Codex-v12.4.md) — concepts and the full step-by-step procedure for every lab
 - [Scenario](labs/SCENARIO.md) and [labs index](labs/README.md)
 - 18 self-contained lab folders; Lab 11's solution holds the complete verified Cook & Bake site
 

@@ -28,7 +28,7 @@ A polished UI, a ranked security review, and the skills lock file
 
 1. **Install frontend-design** — Run the first command in skills-to-install.md. It lands in .agents/skills/.
 2. **Read before you run** — Open the SKILL.md. Skills run with your permissions.
-3. **Polish the site** — Paste Prompt A.
+3. **Polish the site** — Paste Prompt A. It uses brand.md, in your project since Lab 2.
 4. **Install the security skills** — Run the two security commands.
 5. **Review the attack surface** — Paste Prompt B. Fix the top finding.
 6. **Commit the lock file** — skills.sh creates it automatically; it records exactly what you installed.

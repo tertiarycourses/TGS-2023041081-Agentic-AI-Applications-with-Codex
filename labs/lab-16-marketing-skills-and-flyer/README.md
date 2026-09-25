@@ -24,6 +24,7 @@ Four marketing skills (brand-voice, flyer-design, social-post, youtube-package) 
 - `assets/term-highlights.md`
 - `assets/marketing-skills-spec.md`
 - `assets/marketing-skills-reference/`
+- `assets/courses.csv`
 - `prompts.md` / `prompts.pdf` — every prompt, ready to paste
 - `evidence/checklist.md` — what to capture as proof
 

@@ -1,6 +1,6 @@
 # Agentic AI Applications with Codex — Learner Guide
 
-TGS-2023041081 · Version 12.3 · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
+TGS-2023041081 · Version 12.4 · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
 
 ## How to Use This Guide
 
@@ -351,7 +351,7 @@ The reference build — yours will differ in the details, not the function.
 
 **Step-by-step**
 
-1. **Create the project** — Make a folder cook-and-bake, run git init, and copy courses.csv into data/ and brand.md to the root. Open courses.csv in Excel first — one row per course.
+1. **Create the project** — Make a folder cook-and-bake and run git init. Copy courses.csv into data/; brand.md and your Lab 1 market-brief.md (or the sample) into the root.
 1. **Open it in Codex** — Create a local project, then Edit project → Add folder → cook-and-bake. Select GPT-6 Sol.
 1. **Plan first** — Type /plan, then paste the prompt. Read the questions Codex asks.
 1. **Answer and narrow** — Answer every question. Cut or narrow one step, then approve.
@@ -1013,7 +1013,7 @@ All verified on skills.sh and installed with npx skills add.
 
 1. **Install frontend-design** — Run the first command in skills-to-install.md. It lands in .agents/skills/.
 1. **Read before you run** — Open the SKILL.md. Skills run with your permissions.
-1. **Polish the site** — Paste Prompt A.
+1. **Polish the site** — Paste Prompt A. It uses brand.md, in your project since Lab 2.
 1. **Install the security skills** — Run the two security commands.
 1. **Review the attack surface** — Paste Prompt B. Fix the top finding.
 1. **Commit the lock file** — skills.sh creates it automatically; it records exactly what you installed.
@@ -1111,7 +1111,7 @@ Never invent a fee, date or allergen. Ask.
 **Step-by-step**
 
 1. **Install a given skill** — Paste Prompt A — install only, do not run.
-1. **Do the job by hand** — Add BAK-111 Mooncake Making using the supplied details: courses.csv, a brochure, one golden question. Run npm run check.
+1. **Do the job by hand** — From BAK-111-mooncake.md, add a row to your project's data/courses.csv (from Lab 2), a brochure and a golden question. Run npm run check.
 1. **Save it as a skill** — Paste Prompt B.
 1. **Create a second skill** — Paste Prompt C for course-brochure.
 1. **Test by name** — Run $course-brochure BAK-111.
@@ -1131,7 +1131,7 @@ Never invent a fee, date or allergen. Ask.
 
 **PROMPT C — Codex**
 
-> $skill-creator Create a project skill called course-brochure: given a course code, write a one-page A4 HTML brochure from courses.csv and the kb/ brochure only — photo, schedule, intakes, fee, what you learn, allergens, sign-up link. Stop and report if the two sources disagree.
+> $skill-creator Create a project skill called course-brochure: given a course code, write a one-page A4 HTML brochure from data/courses.csv and the kb/ brochure only — photo, schedule, intakes, fee, what you learn, allergens, sign-up link. Stop and report if the two sources disagree.
 
 **Check your work**
 
@@ -1618,7 +1618,7 @@ A built-in Codex skill: it creates and edits images as files in your project.
 
 **Surface:** Chat → Codex ($skill-creator, $imagegen)  ·  **Time:** 30 min  ·  **Slides:** 148–152
 
-**Lab folder:** labs/lab-16-marketing-skills-and-flyer/ — assets: brand-brief.md, flyer-brief.md, term-highlights.md, marketing-skills-spec.md, marketing-skills-reference/
+**Lab folder:** labs/lab-16-marketing-skills-and-flyer/ — assets: brand-brief.md, flyer-brief.md, term-highlights.md, marketing-skills-spec.md, marketing-skills-reference/, courses.csv
 
 **Step-by-step**
 
@@ -1792,7 +1792,7 @@ Lab 18 turns attention into sign-ups — lawfully.
 > $lead-magnets Create "The Home Baker's Sourdough Starter Guide" — a 4-page PDF lead magnet from kb/brochures/BAK-101.md and open-house-brief.md, plus a landing section on our site with an email field (same consent rules as the sign-up form).
 
 > PROMPT B
-> $newsletter-generation Write the November newsletter as HTML email: open house (date, both campuses), 3 featured courses from courses.csv, the starter guide link, and UTM-tagged links per utm-plan.md. One clear call to action.
+> $newsletter-generation Write the November newsletter as HTML email: open house (date, both campuses), 3 featured courses from data/courses.csv, the starter guide link, and UTM-tagged links per utm-plan.md. One clear call to action.
 
 **PROMPTS C and D — ChatGPT Work**
 

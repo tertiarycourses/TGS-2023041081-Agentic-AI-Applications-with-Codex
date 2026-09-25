@@ -29,7 +29,7 @@ A running site: hero with photos, 20 course cards, filters, search, campuses
 
 ## Step by step
 
-1. **Create the project** — Make a folder cook-and-bake, run git init, and copy courses.csv into data/ and brand.md to the root. Open courses.csv in Excel first — one row per course.
+1. **Create the project** — Make a folder cook-and-bake and run git init. Copy courses.csv into data/; brand.md and your Lab 1 market-brief.md (or the sample) into the root.
 2. **Open it in Codex** — Create a local project, then Edit project → Add folder → cook-and-bake. Select GPT-6 Sol.
 3. **Plan first** — Type /plan, then paste the prompt. Read the questions Codex asks.
 4. **Answer and narrow** — Answer every question. Cut or narrow one step, then approve.

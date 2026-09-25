@@ -33,7 +33,7 @@ pass. Report files changed and the eval score.
 ```
 $skill-creator Create a project skill called
 course-brochure: given a course code, write a
-one-page A4 HTML brochure from courses.csv and the
+one-page A4 HTML brochure from data/courses.csv and the
 kb/ brochure only — photo, schedule, intakes, fee,
 what you learn, allergens, sign-up link. Stop and
 report if the two sources disagree.

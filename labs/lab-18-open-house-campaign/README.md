@@ -50,7 +50,7 @@ A lead magnet, an SEO-fixed site, a newsletter to consented contacts only, and a
 > PROMPT B
 > $newsletter-generation Write the November
 > newsletter as HTML email: open house (date, both
-> campuses), 3 featured courses from courses.csv,
+> campuses), 3 featured courses from data/courses.csv,
 > the starter guide link, and UTM-tagged links per
 > utm-plan.md. One clear call to action.
 
